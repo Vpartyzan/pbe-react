@@ -1,0 +1,41 @@
+@import "../../../styles/settings.scss";
+
+.navigation {
+  padding: 12px 0 12px 0;
+}
+
+ul {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+  }
+
+  .searcher {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+  }
+
+  .language {
+    li {
+      margin-right: 10px;
+    }
+
+    a {
+      margin-right: 10px;
+    }
+  }
+}
+
+.container {
+  width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: end;
+}
