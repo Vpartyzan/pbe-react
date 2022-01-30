@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+import SearchIcon from "@mui/icons-material/Search";
+
 import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <nav>
+    <nav className={styles.navigation}>
       <div className={styles.container}>
         <ul>
           <li>
@@ -28,6 +30,7 @@ const Header = () => {
             <a href="#">Contact us</a>
           </li>
           <li>
+            <SearchIcon fontSize="small" />
             <input
               className={styles.searcher}
               type="search"
