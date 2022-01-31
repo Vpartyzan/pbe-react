@@ -1,1 +1,9 @@
 $base-size: 12px;
+
+@font-face {
+  font-family: "newsgoth_lt_btlight";
+  src: url("./fonts/tt0132m_-webfont.woff2") format("woff2"),
+    url("./fonts/tt0132m_-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

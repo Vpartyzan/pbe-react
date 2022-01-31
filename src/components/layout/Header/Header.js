@@ -24,10 +24,13 @@ const Header = () => {
             </ul>
           </li>
           <li>
-            <a href="#">About</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="#">Contact us</a>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact us</NavLink>
           </li>
           <li>
             <SearchIcon fontSize="small" />

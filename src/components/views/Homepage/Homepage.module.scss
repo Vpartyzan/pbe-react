@@ -1,5 +1,9 @@
 @import "../../../styles/settings.scss";
 
+// html {
+//   overflow: hidden;
+// }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -9,10 +13,11 @@
   padding: 0 20px;
   margin: 0 auto;
   text-align: left;
+  font-family: "newsgoth_lt_btlight";
 }
 
 .first {
-  flex: 3;
+  flex: 4;
   padding: 15px;
   text-align: left;
 }
@@ -24,7 +29,7 @@
 
 .table {
   display: grid;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 350px 350px;
   grid-gap: 40px;
 }
 
@@ -53,4 +58,16 @@
   border-radius: 33px;
   padding: 15px 36px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  // font-family: "newsgoth_lt_btlight";
+  font-size: 50px;
+}
+
+p {
+  // font-family: "newsgoth_lt_btlight";
+  font: message-box;
+  text-indent: 5px;
 }

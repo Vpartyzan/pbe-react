@@ -1,5 +1,7 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 import styles from "./Homepage.module.scss";
 
 const Homepage = () => {
@@ -13,13 +15,18 @@ const Homepage = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. <br /> Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          aliquip ex ea commodo consequat.
+        </p>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
         </p>
         <div className={styles.btn_container}>
-          <a className={styles.home_btn}>About Exhibitions →</a>
+          <NavLink to="/about" className={styles.home_btn}>
+            About Exhibitions →
+          </NavLink>
         </div>
       </div>
       <div className={styles.second}>
