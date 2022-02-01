@@ -1,0 +1,49 @@
+@import "../../../styles/settings.scss";
+
+// .container {
+//   display: flex;
+//   justify-content: space-between;
+//   width: 1140px;
+//   padding-left: 20px;
+//   padding-right: 20px;
+//   padding: 0 20px;
+//   margin: 0 auto;
+//   text-align: left;
+//   font-family: "newsgoth_lt_btlight";
+// }
+
+.map {
+  // flex: 8;
+  width: 100%;
+  height: 100%;
+}
+
+.regions {
+  fill: #eeeeee;
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+
+.description {
+  flex: 4;
+}
+
+.hrodno:hover {
+  fill: black;
+}
+
+.vitsebsk:hover {
+  fill: black;
+}
+.mahiliou:hover {
+  fill: black;
+}
+.homel:hover {
+  fill: black;
+}
+.minsk:hover {
+  fill: black;
+}
+.brest:hover {
+  fill: black;
+}

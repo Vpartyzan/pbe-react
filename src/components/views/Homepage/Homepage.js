@@ -2,6 +2,8 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 
+import Map from "../Map/Map";
+
 import styles from "./Homepage.module.scss";
 
 const Homepage = () => {
@@ -40,9 +42,10 @@ const Homepage = () => {
           <div className={styles.table_img}>
             <img src="https://i.postimg.cc/Gp3v3W1W/77170316-1460845767421835-1882814319713675709-n.jpg" />
           </div>
-          <div className={styles.table_img}>
-            <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" />
-          </div>
+          <NavLink to="/map" className={styles.table_img}>
+            <Map />
+            {/* <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" /> */}
+          </NavLink>
         </div>
       </div>
     </div>

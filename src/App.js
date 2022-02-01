@@ -5,6 +5,7 @@ import MainLayout from "./components/layout/MainLayout/MainLayout";
 import Homepage from "./components/views/Homepage/Homepage";
 import About from "./components/views/About/About";
 import Contact from "./components/views/Contact/Contact";
+import Map from "./components/views/Map/Map";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             path={process.env.PUBLIC_URL + "/contact"}
             element={<Contact />}
           />
+          <Route path={process.env.PUBLIC_URL + "/map"} element={<Map />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>
