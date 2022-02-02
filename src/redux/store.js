@@ -1,13 +1,15 @@
-import { combineReducers, createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
-import { composeWithDevTools } from "redux-devtools-extension";
+import { combineReducers, createStore } from "redux";
+import initialStoreData from "../data/dataStore";
+import languageReducer from "./languageRedux";
 
-import { initialState } from "./initialState";
-import { reducer as postsReducer } from "./postsRedux";
+// define initial state and shallow-merge initial data
+const initialState = {
+  textContent: initialStoreData.textContent,
+};
 
 // define reducers
 const reducers = {
-  posts: postsReducer,
+  textContent: languageReducer,
 };
 
 // add blank reducers for initial state properties without reducers
@@ -17,11 +19,14 @@ Object.keys(initialState).forEach((item) => {
   }
 });
 
-const combinedReducers = combineReducers(reducers);
+// merge all reducers
+const storeReducer = combineReducers(reducers);
 
 // create store
-export const store = createStore(
-  combinedReducers,
+const store = createStore(
+  storeReducer,
   initialState,
-  composeWithDevTools(applyMiddleware(thunk))
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
+
+export default store;

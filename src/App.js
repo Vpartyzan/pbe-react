@@ -2,10 +2,11 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import MainLayout from "./components/layout/MainLayout/MainLayout";
-import Homepage from "./components/views/Homepage/Homepage";
-import About from "./components/views/About/About";
+import Homepage from "./components/views/Homepage/HomepageContainer";
+import About from "./components/views/About/AboutContainer";
 import Contact from "./components/views/Contact/Contact";
 import Map from "./components/views/Map/Map";
+import Exhibitions from "./components/views/Exhibitions/Exhibitions";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
             element={<Contact />}
           />
           <Route path={process.env.PUBLIC_URL + "/map"} element={<Map />} />
+          <Route
+            path={process.env.PUBLIC_URL + "/exhibitions"}
+            element={<Exhibitions />}
+          />
         </Routes>
       </MainLayout>
     </BrowserRouter>
