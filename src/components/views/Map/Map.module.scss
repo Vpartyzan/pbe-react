@@ -20,7 +20,7 @@
 
 .regions {
   fill: #eeeeee;
-  stroke: #ffffff;
+  // stroke: #ffffff;
   stroke-width: 2;
 }
 
@@ -28,22 +28,36 @@
   flex: 4;
 }
 
-.hrodno:hover {
-  fill: black;
+.regions:hover {
+  .minsk {
+    fill: rgb(167, 35, 35);
+  }
+
+  .hrodno {
+    fill: rgb(167, 35, 35);
+  }
+
+  .mahiliou {
+    fill: rgb(167, 35, 35);
+  }
 }
 
-.vitsebsk:hover {
-  fill: black;
+.hrodno:hover {
+  fill: rgb(167, 35, 35);
 }
+
+// .vitsebsk:hover {
+//   fill: black;
+// }
 .mahiliou:hover {
-  fill: black;
+  fill: rgb(167, 35, 35);
 }
-.homel:hover {
-  fill: black;
-}
+// .homel:hover {
+//   fill: black;
+// }
 .minsk:hover {
-  fill: black;
+  fill: rgb(167, 35, 35);
 }
-.brest:hover {
-  fill: black;
-}
+// .brest:hover {
+//   fill: black;
+// }

@@ -46,7 +46,9 @@ const Header = (props) => {
             <NavLink to="/about">{content.about}</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">{content.contact}</NavLink>
+            <a href="https://www.instagram.com/skarodzitsa/">
+              {content.contact}
+            </a>
           </li>
           <li>
             <SearchIcon fontSize="small" />
