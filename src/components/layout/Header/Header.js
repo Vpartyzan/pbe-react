@@ -17,7 +17,7 @@ const Header = (props) => {
   return (
     <nav className={styles.navigation}>
       <div className={styles.container}>
-        <ul>
+        <ul className={styles.navWrapper}>
           <li>
             <ul className={styles.language}>
               <li>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 
-import Map from "../Map/Map";
+import EuroMap from "./EuroMap/EuroMap";
 
 import styles from "./Homepage.module.scss";
 
@@ -60,8 +60,9 @@ const Homepage = (props) => {
               </span>
             </div>
           </div>
-          <NavLink to="/exhibitions" className={styles.table_img}>
-            <Map />
+          <NavLink to="/map" className={styles.table_img}>
+            {/* <Map /> */}
+            <EuroMap />
             {/* <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" /> */}
           </NavLink>
         </div>

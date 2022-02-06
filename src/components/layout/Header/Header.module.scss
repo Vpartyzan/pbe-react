@@ -4,7 +4,7 @@
 //   padding: 0 0 0px 0;
 // }
 
-ul {
+.navWrapper {
   list-style-type: none;
 
   li {
@@ -12,23 +12,23 @@ ul {
     margin-right: 36px;
     position: relative;
   }
+}
 
-  .searcher {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    outline: none;
-    padding-top: 3px;
+.searcher {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  padding-top: 3px;
+}
+
+.language {
+  li {
+    margin-right: 10px;
   }
 
-  .language {
-    li {
-      margin-right: 10px;
-    }
-
-    a {
-      margin-right: 10px;
-    }
+  a {
+    margin-right: 10px;
   }
 }
 
