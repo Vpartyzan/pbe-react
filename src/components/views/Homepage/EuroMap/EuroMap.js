@@ -8,7 +8,7 @@ const EuroMap = () => {
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
-        width="320px"
+        width="350px"
         height="300px"
         viewBox="0 0 1110.000000 1280.000000"
         preserveAspectRatio="xMidYMid meet"
