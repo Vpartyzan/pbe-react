@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import Homepage from "./Homepage";
 
-export const getContent = ({ content }, currentLanguage) =>
+const getContent = ({ content }, currentLanguage) =>
   content.filter((content) => content.language == currentLanguage);
 
 const mapStateToProps = (state) => ({

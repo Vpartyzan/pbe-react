@@ -9,6 +9,8 @@ import styles from "./Homepage.module.scss";
 const Homepage = (props) => {
   const content = props.textContent[0].homePage;
 
+  console.log(props);
+
   return (
     <div className={styles.container}>
       <div className={styles.first}>

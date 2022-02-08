@@ -74,6 +74,523 @@ const textContent = {
       },
     },
   ],
+  exhibitions: [
+    {
+      language: "eng",
+      currentRegion: "Minsk",
+      regions: [
+        {
+          name: "Brest",
+          description:
+            "Western Polesie is the most striking example of the birth and evolution of polychrome embroidery.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Viciebsk",
+          description: "Not represented",
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Hrodna",
+          description:
+            "Despite the rapid departure of the 'village' fashion from the everyday life of the west of the country, the examples are noticeably similar with Brest and Minsk regions.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Homel",
+          description:
+            "The region is rich in bright colors. What’s distinctive about it is that inhabitants used variations of the folk costume almost until the end of the 20th century.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Minsk",
+          description:
+            "The brightest examples of polychrome embroidery were found in the northwestern and southern borders of this area.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Mahiliou",
+          description:
+            "The eastern region has same typical examples of costume embroidery as the western part of the country. A perfect example of how common identity works through the costume.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      language: "blr",
+    },
+    {
+      language: "ru",
+    },
+  ],
 };
 
 const initialStoreData = {
