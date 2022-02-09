@@ -30,11 +30,16 @@
 
 .linkWrapper {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
 
   li {
     padding-bottom: 10px;
   }
+}
+
+.activeLink:hover {
+  color: red;
+  font-size: 20px;
 }
 
 .description {

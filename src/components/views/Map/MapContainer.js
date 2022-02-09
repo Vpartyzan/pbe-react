@@ -1,11 +1,15 @@
 import { connect } from "react-redux";
 import Map from "./Map";
 
-const getContent = ({ exhibitions }, currentLanguage) =>
+const getTextContent = ({ exhibitions }, currentLanguage) =>
   exhibitions.filter((exhibitions) => exhibitions.language === currentLanguage);
 
 const mapStateToProps = (state) => ({
-  textContent: getContent(state.textContent, state.textContent.currentLanguage),
+  textContent: getTextContent(
+    state.textContent,
+    state.textContent.currentLanguage
+  ),
+  imageContent: state.imageContent,
 });
 
 export default connect(mapStateToProps)(Map);

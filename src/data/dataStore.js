@@ -349,7 +349,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
             },
             {
               id: 2,
@@ -360,7 +361,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
             },
             {
               id: 3,
@@ -371,7 +373,7 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
             },
             {
               id: 4,
@@ -952,7 +954,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
             },
             {
               id: 2,
@@ -963,7 +966,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
             },
             {
               id: 3,
@@ -974,7 +978,7 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
             },
             {
               id: 4,
@@ -1209,7 +1213,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
             },
             {
               id: 2,
@@ -1220,7 +1225,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
             },
             {
               id: 3,
@@ -1231,7 +1237,8 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
+              image:
+                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
             },
             {
               id: 4,
@@ -1368,8 +1375,177 @@ const textContent = {
   ],
 };
 
+const imageContent = {
+  homepage: {},
+  about: {},
+  regions: {
+    brest: [
+      {
+        id: "1",
+        image:
+          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
+      },
+      {
+        id: "2",
+        image:
+          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
+      },
+      {
+        id: "3",
+        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
+      },
+      {
+        id: "4",
+        image: "",
+      },
+      {
+        id: "5",
+        image: "",
+      },
+      {
+        id: "6",
+        image: "",
+      },
+      {
+        id: "7",
+        image: "",
+      },
+    ],
+    homel: [
+      {
+        id: "1",
+        image:
+          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
+      },
+      {
+        id: "2",
+        image:
+          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
+      },
+      {
+        id: "3",
+        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
+      },
+      {
+        id: "4",
+        image: "",
+      },
+      {
+        id: "5",
+        image: "",
+      },
+      {
+        id: "6",
+        image: "",
+      },
+      {
+        id: "7",
+        image: "",
+      },
+    ],
+    hrodna: [
+      {
+        id: "1",
+        image:
+          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
+      },
+      {
+        id: "2",
+        image:
+          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
+      },
+      {
+        id: "3",
+        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
+      },
+      {
+        id: "4",
+        image: "",
+      },
+      {
+        id: "5",
+        image: "",
+      },
+      {
+        id: "6",
+        image: "",
+      },
+      {
+        id: "7",
+        image: "",
+      },
+    ],
+    viciebks: [],
+    minsk: [
+      {
+        id: "1",
+        image:
+          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
+      },
+      {
+        id: "2",
+        image:
+          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
+      },
+      {
+        id: "3",
+        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
+      },
+      {
+        id: "4",
+        image: "",
+      },
+      {
+        id: "5",
+        image: "",
+      },
+      {
+        id: "6",
+        image: "",
+      },
+      {
+        id: "7",
+        image: "",
+      },
+    ],
+    mahiliou: [
+      {
+        id: "1",
+        image:
+          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
+      },
+      {
+        id: "2",
+        image:
+          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
+      },
+      {
+        id: "3",
+        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
+      },
+      {
+        id: "4",
+        image: "",
+      },
+      {
+        id: "5",
+        image: "",
+      },
+      {
+        id: "6",
+        image: "",
+      },
+      {
+        id: "7",
+        image: "",
+      },
+    ],
+  },
+};
+
 const initialStoreData = {
   textContent: { ...textContent },
+  imageContent: { ...imageContent },
 };
 
 export default initialStoreData;

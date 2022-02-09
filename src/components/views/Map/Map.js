@@ -6,12 +6,35 @@ import styles from "./Map.module.scss";
 
 const Map = (props) => {
   const [currentRegion, setCurrentRegion] = useState("Minsk");
+  const [curExhImg, setCurExhImg] = useState(
+    "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
+  );
+
   const region = props.textContent[0].regions.filter(
     (regions) => regions.name === currentRegion
   )[0];
 
   const handleClick = function (e) {
     setCurrentRegion(e.target.id);
+  };
+
+  const handleOver = function (e) {
+    let curExh;
+
+    for (let region in props.imageContent.regions) {
+      if (region === currentRegion.toLowerCase()) {
+        let curExhReg = props.imageContent.regions[currentRegion.toLowerCase()];
+        curExh = curExhReg.filter((item) => item.id === e.target.id)[0];
+      }
+    }
+
+    setCurExhImg(curExh.image);
+  };
+
+  const handleOut = function (e) {
+    setCurExhImg(
+      "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
+    );
   };
 
   return (
@@ -41,7 +64,7 @@ const Map = (props) => {
                 height="1"
                 width="1"
                 preserveAspectRatio="none"
-                xlinkHref="https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
+                xlinkHref={curExhImg}
               ></image>
             </pattern>
           </defs>
@@ -52,9 +75,7 @@ const Map = (props) => {
               className={currentRegion === "Hrodna" ? styles.active : ""}
               onClick={handleClick}
               points="200,160 195,155 195,150 190,145 185,145 185,135 175,125 170,130 160,130 155,135 155,140 150,145 150,165 145,170 145,180 140,185 145,190 150,190 155,195 155,200 155,205 150,205 145,210 140,210 134.7,205 140,200 140,195 135,190 130,195 125,195 115,205 105,205 100,210 100,220 95,225 90,220 85,225 80,225 75,230 65,230 60,225 50,225 45,230 35,230 30,225 25,225 25,235 30,240 30,260 35,265 35,275 40,280 40,285 40,290 45,295 45,310 50,315 50,340 55,340 60,335 65,340 75,340 80,345 85,340 85,330 90,325 95,320 105,320 105,325 110,330 125,330 125,325 130,320 135,320 140,315 140,295 145,290 145,285 150,280 160,280 175,280 180,285 185,285 190,280 195,280 195,260 190,255 185,255 185,250 180,245 180,240 180,235 190,225 190,220 185,220 185,215 175,215 175,210 170,210 170,205 175,200 185,200 195,190 195,185 200,180 200,175 205,170 205,160"
-            >
-              {/* <image xlinkHref="https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg" /> */}
-            </polygon>
+            />
 
             <polygon
               id="Viciebsk"
@@ -96,39 +117,17 @@ const Map = (props) => {
       <div className={styles.links}>
         <ul className={styles.linkWrapper}>
           {region.exhibition.map((item) => (
-            <NavLink to="/exhibitions" key={item.id}>
-              <li>
+            <NavLink
+              to="/exhibitions"
+              key={item.id}
+              onMouseOver={handleOver}
+              onMouseOut={handleOut}
+            >
+              <li id={item.id} className={styles.activeLink}>
                 {item.name}.{currentRegion} #{item.id}
               </li>
             </NavLink>
           ))}
-          {/* <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li>
-          <li>
-            <a href="#">District near Minsk. Shirt #</a>
-          </li> */}
         </ul>
       </div>
     </div>
@@ -137,6 +136,7 @@ const Map = (props) => {
 
 Map.propTypes = {
   textContent: PropTypes.array.isRequired,
+  imageContent: PropTypes.object,
 };
 
 export default Map;

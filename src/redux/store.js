@@ -5,6 +5,7 @@ import languageReducer from "./languageRedux";
 // define initial state and shallow-merge initial data
 const initialState = {
   textContent: initialStoreData.textContent,
+  imageContent: initialStoreData.imageContent,
 };
 
 // define reducers
