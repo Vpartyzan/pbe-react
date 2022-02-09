@@ -8,7 +8,7 @@ import { changeLanguage } from "../../../redux/languageRedux";
 // });
 
 export const getContent = ({ content }, currentLanguage) =>
-  content.filter((content) => content.language == currentLanguage);
+  content.filter((content) => content.language === currentLanguage);
 
 const mapStateToProps = (state) => ({
   textContent: getContent(state.textContent, state.textContent.currentLanguage),

@@ -77,7 +77,6 @@ const textContent = {
   exhibitions: [
     {
       language: "eng",
-      currentRegion: "Minsk",
       regions: [
         {
           name: "Brest",
@@ -166,85 +165,7 @@ const textContent = {
         {
           name: "Viciebsk",
           description: "Not represented",
-          exhibition: [
-            {
-              id: 1,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-          ],
+          exhibition: [],
         },
         {
           name: "Hrodna",
@@ -586,9 +507,863 @@ const textContent = {
     },
     {
       language: "blr",
+      regions: [
+        {
+          name: "Brest",
+          description:
+            "Заходняе палессе - самы яркі прыклад нараджэння і развіцця паліхромнай вышыўкі.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Viciebsk",
+          description: "Не прадстаўлена",
+          exhibition: [],
+        },
+        {
+          name: "Hrodna",
+          description:
+            "Нягледзячы на хуткі сыход 'вясковай' моды з ужытку захада краіны, знойдзеныя прыклады прыкметна пераклікаюцца з брэсцкім і цэнтральным рэгіёнам.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Homel",
+          description:
+            "Багаты на яркія фарбы край, жыхары якога выкарыстоўвалі варыяцыі народнага строя амаль да канца 20-га стагоддзя.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Minsk",
+          description:
+            "Ярчэй за ўсё з'ява прадстаўлена на паўночна-заходняй і паўднёвай межах гэтай вобласці. ",
+          exhibition: [
+            {
+              id: 1,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Mahiliou",
+          description:
+            "Усходняя вобласць дэманструе такія ж тыповыя прыклады вышыўкі ў касцюме, як і захад краіны. Гэта ярка паказвае як агульную ідэнтычнасць можна прасачыць праз калектыўнае разуменне адзення.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+      ],
     },
     {
       language: "ru",
+      regions: [
+        {
+          name: "Brest",
+          description:
+            "Западное Полесье – самый яркий пример рождения и развития полихромной вышивки.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Viciebsk",
+          description: "Не представлена",
+          exhibition: [],
+        },
+        {
+          name: "Hrodna",
+          description:
+            "Несмотря на быстрый уход «деревенской» моды из обихода запада страны, найденные примеры заметно перекликаются с брестским и центральным регионом.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Homel",
+          description:
+            "Богатый на яркие краски край, жители которого использовали вариации народного костюма почти до конца 20-го века.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Minsk",
+          description:
+            "Ярче всего явление представлено на северо-западной и южной границах этой области.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+        {
+          name: "Mahiliou",
+          description:
+            "Восточная область демонстрирует такие же типичные примеры вышивки в костюме, как и запад страны. Это ярко показывает как общую идентичность можно проследить через коллективное понимание костюма.",
+          exhibition: [
+            {
+              id: 1,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 3,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 4,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 5,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 6,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+            {
+              id: 7,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+              image: "path to image",
+            },
+          ],
+        },
+      ],
     },
   ],
 };

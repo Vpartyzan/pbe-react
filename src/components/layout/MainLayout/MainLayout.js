@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Header from "../Header/HeaderConteiner";
 
-import styles from "./MainLayout.module.scss";
+// import styles from "./MainLayout.module.scss";
 
 const MainLayout = ({ children }) => {
   return (
