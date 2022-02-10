@@ -6,3 +6,31 @@ $base-size: 12px;
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("./fonts/MyriadProRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Microsoft JhengHei light";
+  src: url("./fonts/msjhl.ttc") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Microsoft JhengHei Bold";
+  src: url("./fonts/msjhbd.ttc") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NewsGoth BT Italic";
+  src: url("./fonts/tt0048m_.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

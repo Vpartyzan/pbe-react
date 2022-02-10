@@ -16,7 +16,7 @@
   font-family: "newsgoth_lt_btlight";
 
   h1 {
-    font-family: "Microsoft JhengHei";
+    font-family: "Microsoft JhengHei light";
     font-size: 50px;
     text-align: inherit;
   }
@@ -95,6 +95,10 @@
   transition-property: top, opacity;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+}
+
+.caption {
+  font-family: "Microsoft JhengHei Bold";
 }
 
 .thumbs img {
@@ -183,4 +187,5 @@
   padding: 15px 36px;
   cursor: pointer;
   text-decoration: none;
+  font-family: "MyriadProRegular";
 }

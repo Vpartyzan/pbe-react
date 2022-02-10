@@ -34,6 +34,7 @@
 
   li {
     padding-bottom: 10px;
+    font-family: "NewsGoth BT Italic";
   }
 }
 
@@ -47,6 +48,9 @@
   text-align: inherit;
   max-height: 250px;
   max-width: 150px;
+  p {
+    font-family: "Microsoft JhengHei";
+  }
 }
 
 .regions {
@@ -57,4 +61,5 @@
 
 .active {
   fill: url(#image);
+  // stroke: red;
 }

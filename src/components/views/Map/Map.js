@@ -28,7 +28,9 @@ const Map = (props) => {
       }
     }
 
-    setCurExhImg(curExh.image);
+    if (curExh.image !== "") {
+      setCurExhImg(curExh.image);
+    }
   };
 
   const handleOut = function (e) {
