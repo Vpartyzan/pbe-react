@@ -8,14 +8,29 @@ import styles from "./Homepage.module.scss";
 
 const Homepage = (props) => {
   const content = props.textContent[0].homePage;
-
-  console.log(props);
+  const language = props.textContent[0].language;
 
   return (
     <div className={styles.container}>
       <div className={styles.first}>
-        <h1>{content.title}</h1>
-        <p>{content.firstPar}</p>
+        <h1
+          style={{
+            fontFamily: `${
+              language === "eng" ? "Microsoft JhengHei light" : "FreeSet"
+            }`,
+          }}
+        >
+          {content.title}
+        </h1>
+        <p
+          style={{
+            fontFamily: `${
+              language === "eng" ? "Microsoft JhengHei" : "calibri"
+            }`,
+          }}
+        >
+          {content.firstPar}
+        </p>
         {/* <p>{content.secondPar}</p> */}
         <div className={styles.btn_container}>
           <NavLink to="/about" className={styles.home_btn}>

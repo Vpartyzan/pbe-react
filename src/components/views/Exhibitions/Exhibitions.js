@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
+import Rotate360 from "./R360/Rotate360";
+
 import styles from "./Exhibitions.module.scss";
 
 const Exhibitions = () => {
@@ -31,7 +33,9 @@ const Exhibitions = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.curfoto}>curfoto</div>
+      <div className={styles.curfoto}>
+        <Rotate360 />
+      </div>
       <div className={styles.allfoto}>
         <div className={styles.carusel}>
           <ArrowDropUpIcon

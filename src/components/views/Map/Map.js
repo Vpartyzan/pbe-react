@@ -10,6 +10,7 @@ const Map = (props) => {
     "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
   );
 
+  const language = props.textContent[0].language;
   const region = props.textContent[0].regions.filter(
     (regions) => regions.name === currentRegion
   )[0];
@@ -42,7 +43,15 @@ const Map = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.description}>
-        <p>{region.description}</p>
+        <p
+          style={{
+            fontFamily: `${
+              language === "eng" ? "Microsoft JhengHei" : "calibri"
+            }`,
+          }}
+        >
+          {region.description}
+        </p>
       </div>
       <div className={styles.map}>
         <svg
@@ -125,7 +134,15 @@ const Map = (props) => {
               onMouseOver={handleOver}
               onMouseOut={handleOut}
             >
-              <li id={item.id} className={styles.activeLink}>
+              <li
+                style={{
+                  fontFamily: `${
+                    language === "eng" ? "NewsGoth BT Italic" : "calibrii"
+                  }`,
+                }}
+                id={item.id}
+                className={styles.activeLink}
+              >
                 {item.name}.{currentRegion} #{item.id}
               </li>
             </NavLink>

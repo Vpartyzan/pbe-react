@@ -14,6 +14,12 @@
 
 .curfoto {
   flex: 6;
+
+  img {
+    width: 500px;
+    height: 667px;
+    object-fit: cover;
+  }
 }
 
 .allfoto {
@@ -37,7 +43,7 @@
 .btn_container {
   text-align: left;
   margin-top: 70px;
-  margin-left: 280px;
+  margin-left: 250px;
 }
 
 .btn {
