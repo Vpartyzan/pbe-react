@@ -113,6 +113,16 @@ const textContent = {
                 btn: "",
               },
             },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
           ],
         },
         {
@@ -154,6 +164,16 @@ const textContent = {
             },
             {
               id: 2,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 3,
               name: "Name of exhibition",
               description: {
                 title: "",
@@ -230,6 +250,16 @@ const textContent = {
                 btn: "",
               },
             },
+            {
+              id: 3,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
           ],
         },
         {
@@ -271,6 +301,16 @@ const textContent = {
             },
             {
               id: 2,
+              name: "Назва выставы",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 3,
               name: "Назва выставы",
               description: {
                 title: "",
@@ -336,6 +376,16 @@ const textContent = {
                 btn: "",
               },
             },
+            {
+              id: 3,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
           ],
         },
         {
@@ -377,6 +427,16 @@ const textContent = {
             },
             {
               id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 3,
               name: "Название выставки",
               description: {
                 title: "",
