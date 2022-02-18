@@ -41,7 +41,7 @@ const Homepage = (props) => {
       <div className={styles.second}>
         <div className={styles.table}>
           <div className={styles.thumbs}>
-            <img src="https://polyreactsa.blob.core.windows.net/content/1.png`${contentSas}`" />
+            <img src={https://polyreactsa.blob.core.windows.net/content/1.png${contentSas}} />
             <div className={styles.caption}>
               <span className={styles.title}>The Shirt</span>
               <span className={styles.info}>
@@ -54,7 +54,7 @@ const Homepage = (props) => {
 
           <div className={styles.thumbs}>
             <img
-              src="https://polyreactsa.blob.core.windows.net/content/3.png${contentSas}"
+              src={https://polyreactsa.blob.core.windows.net/content/3.png${contentSas}}
               title="sadasdasdasd"
             />
             <div className={styles.caption}>
@@ -66,7 +66,7 @@ const Homepage = (props) => {
             </div>
           </div>
           <div className={styles.thumbs}>
-            <img src="https://polyreactsa.blob.core.windows.net/content/2.png${contentSas}" />
+            <img src={https://polyreactsa.blob.core.windows.net/content/2.png${contentSas}} />
             <div className={styles.caption}>
               <span className={styles.title}>Head Scarf</span>
               <span className={styles.info}>
