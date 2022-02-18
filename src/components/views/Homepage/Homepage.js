@@ -41,39 +41,38 @@ const Homepage = (props) => {
       <div className={styles.second}>
         <div className={styles.table}>
           <div className={styles.thumbs}>
-            <img src="https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg" />
+            <img src="https://polyreactsa.blob.core.windows.net/content/1.png${contentSas}" />
             <div className={styles.caption}>
-              <span className={styles.title}>Title</span>
+              <span className={styles.title}>The Shirt</span>
               <span className={styles.info}>
-                subtitle subtitle subtitle subtitle subtitle subtitle subtitle
-                subtitle subtitle subtitle subtitle subtitle subtitle subtitle
-                subtitle subtitle subtitle subtitle
+                There's the most common things from traditional costume that can be embroidered. 
+                The main part of a costume is truly the shirt.
+                In fact most of belarisians assosiate mational costume with shirt alone.
               </span>
             </div>
           </div>
 
           <div className={styles.thumbs}>
             <img
-              src="https://i.postimg.cc/ryDCr2tc/85257794-280578909592745-5139936381796588779-n.jpg"
+              src="https://polyreactsa.blob.core.windows.net/content/3.png${contentSas}"
               title="sadasdasdasd"
             />
             <div className={styles.caption}>
-              <span className={styles.title}>Title</span>
+              <span className={styles.title}>An Apron?</span>
               <span className={styles.info}>
-                subtitle subtitle subtitle subtitle subtitle subtitle subtitle
-                subtitle subtitle subtitle subtitle subtitle subtitle subtitle
-                subtitle subtitle subtitle subtitle
+                What could be more useless in a daily life than an apron?
+                Yet apron was necessary and obligatory to wear for any woman.
               </span>
             </div>
           </div>
           <div className={styles.thumbs}>
-            <img src="https://i.postimg.cc/Gp3v3W1W/77170316-1460845767421835-1882814319713675709-n.jpg" />
+            <img src="https://polyreactsa.blob.core.windows.net/content/2.png${contentSas}" />
             <div className={styles.caption}>
-              <span className={styles.title}>Title</span>
+              <span className={styles.title}>Head Scarf</span>
               <span className={styles.info}>
-                subtitle subtitle subtitle subtitle subtitle subtitle subtitle
-                subtitle subtitle subtitle subtitle subtitle subtitle subtitle
-                subtitle subtitle subtitle subtitle
+                Most of you may think of babushkas first.
+                That's actually true. Traditionaly after marriage every woman must have her head covered.
+                Embroidered head scarfs appered when factory made kurchiefs were too expencive. Just an affortable replacement.
               </span>
             </div>
           </div>
