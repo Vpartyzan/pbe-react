@@ -35,7 +35,7 @@ class Rotate360 extends Component {
   };
 
   componentDidUpdate = (prevProps, prevState) => {
-    console.log(prevState);
+    // console.log(prevState);
     if (prevProps.activeExhibition !== this.props.activeExhibition) {
       this.setState((state) => {
         return {
@@ -116,7 +116,7 @@ class Rotate360 extends Component {
   renderImage = () => {
     const { imageIndex, imgArr } = this.state;
     const { currentRegion, activeExhibition } = this.props;
-    console.log(this.state.lastImgArr);
+    // console.log(this.state.lastImgArr);
 
     let src =
       imgArr.length > 0

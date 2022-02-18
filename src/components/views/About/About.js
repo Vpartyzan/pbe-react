@@ -48,7 +48,16 @@ const About = (props) => {
         </p>
       </div>
       <div className={styles.table_img}>
-        <img src="https://i.postimg.cc/dtrFDW8n/pexels-rodnae-productions-8474810.jpg" />
+        {/* <img src="https://i.postimg.cc/dtrFDW8n/pexels-rodnae-productions-8474810.jpg" /> */}
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/JagemrPoeGU?controls=0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );

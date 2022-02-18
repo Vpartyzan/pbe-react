@@ -185,7 +185,18 @@ const textContent = {
           name: "Mahiliou",
           description:
             "The eastern region has same typical examples of costume embroidery as the western part of the country. A perfect example of how common identity works through the costume.",
-          exhibition: [],
+          exhibition: [
+            {
+              id: 1,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+          ],
         },
       ],
     },
@@ -206,7 +217,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 2,
@@ -217,7 +227,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
           ],
         },
@@ -240,7 +249,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
           ],
         },
@@ -478,6 +486,7 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
+          amountImg: "25",
           image: `https://polyreactsa.blob.core.windows.net/images/mahiliou/mahiliou-1-1.jpg${sas}`,
         },
       ],
