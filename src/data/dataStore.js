@@ -3,7 +3,6 @@ const sas =
 const contentSas =
   "?sv=2020-10-02&st=2022-02-18T17%3A57%3A02Z&se=2027-01-31T17%3A57%3A00Z&sr=c&sp=r&sig=ae3fsZvxWWXaE7mTUmdiD%2Fv7p36XR6asc1GTWGs4Yyc%3D";
 
-
 const state = {
   currentLanguage: "eng",
   currentRegion: "Minsk",
@@ -480,7 +479,7 @@ const imageContent = {
         {
           id: 1,
           image: `https://polyreactsa.blob.core.windows.net/images/mahiliou/mahiliou-1-1.jpg${sas}`,
-        }
+        },
       ],
     },
   ],
