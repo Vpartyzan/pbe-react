@@ -476,7 +476,12 @@ const imageContent = {
     },
     {
       name: "Mahiliou",
-      exhibitions: [],
+      exhibitions: [
+        {
+          id: 1,
+          image: `https://polyreactsa.blob.core.windows.net/images/mahiliou/mahiliou-1-1.jpg${sas}`,
+        }
+      ],
     },
   ],
 };
