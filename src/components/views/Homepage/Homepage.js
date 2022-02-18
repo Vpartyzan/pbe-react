@@ -41,11 +41,11 @@ const Homepage = (props) => {
       <div className={styles.second}>
         <div className={styles.table}>
           <div className={styles.thumbs}>
-            <img src="https://polyreactsa.blob.core.windows.net/content/1.png${contentSas}" />
+            <img src="https://polyreactsa.blob.core.windows.net/content/1.png`${contentSas}`" />
             <div className={styles.caption}>
               <span className={styles.title}>The Shirt</span>
               <span className={styles.info}>
-                There's the most common things from traditional costume that can be embroidered. 
+                There&apos;s the most common things from traditional costume that can be embroidered. 
                 The main part of a costume is truly the shirt.
                 In fact most of belarisians assosiate mational costume with shirt alone.
               </span>
@@ -71,7 +71,7 @@ const Homepage = (props) => {
               <span className={styles.title}>Head Scarf</span>
               <span className={styles.info}>
                 Most of you may think of babushkas first.
-                That's actually true. Traditionaly after marriage every woman must have her head covered.
+                That&apos;s actually true. Traditionaly after marriage every woman must have her head covered.
                 Embroidered head scarfs appered when factory made kurchiefs were too expencive. Just an affortable replacement.
               </span>
             </div>
