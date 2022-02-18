@@ -25,10 +25,16 @@ h3 {
   justify-content: center;
   width: 100%;
   height: 100%;
+  padding-bottom: 36px;
 
   img {
     width: 70%;
     height: 100%;
     object-fit: cover;
   }
+}
+
+.text {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }

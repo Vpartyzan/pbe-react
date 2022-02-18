@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import Map from "../Map/MapContainer";
+
 import styles from "./About.module.scss";
 
 const About = (props) => {
@@ -9,7 +11,7 @@ const About = (props) => {
 
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.text}>
         <h1
           style={{
             fontFamily: `${
@@ -59,6 +61,7 @@ const About = (props) => {
           allowFullScreen
         ></iframe>
       </div>
+      <Map />
     </div>
   );
 };
