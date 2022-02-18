@@ -6,7 +6,7 @@ import Homepage from "./components/views/Homepage/HomepageContainer";
 import About from "./components/views/About/AboutContainer";
 import Contact from "./components/views/Contact/Contact";
 import Map from "./components/views/Map/MapContainer";
-import Exhibitions from "./components/views/Exhibitions/Exhibitions";
+import Exhibitions from "./components/views/Exhibitions/ExhibitionsContainer";
 
 function App() {
   return (

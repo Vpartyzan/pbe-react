@@ -1,10 +1,10 @@
 import { connect } from "react-redux";
-import Map from "./Map";
+import Exhibitions from "./Exhibitions";
 
-import { changeRegion, changeExhibition } from "../../../redux/stateRedux";
+import { changeExhibition } from "../../../redux/stateRedux";
 
 const getTextContent = ({ exhibitions }, currentLanguage) =>
-  exhibitions.filter((exhibitions) => exhibitions.language === currentLanguage);
+  exhibitions.filter((exhibition) => exhibition.language === currentLanguage);
 
 const mapStateToProps = (state) => ({
   textContent: getTextContent(state.textContent, state.state.currentLanguage),
@@ -14,8 +14,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  changeRegion: (region) => dispatch(changeRegion(region)),
   changeExhibition: (ExhibitionId) => dispatch(changeExhibition(ExhibitionId)),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Map);
+export default connect(mapStateToProps, mapDispatchToProps)(Exhibitions);

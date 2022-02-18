@@ -1,5 +1,13 @@
-const textContent = {
+const sas =
+  "?sp=r&st=2022-02-15T17:13:20Z&se=2022-03-30T01:13:20Z&spr=https&sv=2020-08-04&sr=c&sig=CveLxLSKlLTrYsezdHHzNYpySvlub42nM%2FF7NX8y3Pw%3D";
+
+const state = {
   currentLanguage: "eng",
+  currentRegion: "Minsk",
+  activeExhibition: 1,
+};
+
+const textContent = {
   content: [
     {
       language: "eng",
@@ -92,7 +100,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 2,
@@ -103,62 +110,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -181,73 +132,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -265,7 +149,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 2,
@@ -276,62 +159,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -349,75 +176,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image:
-                "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image:
-                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -425,85 +183,7 @@ const textContent = {
           name: "Mahiliou",
           description:
             "The eastern region has same typical examples of costume embroidery as the western part of the country. A perfect example of how common identity works through the costume.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-          ],
+          exhibition: [],
         },
       ],
     },
@@ -537,61 +217,6 @@ const textContent = {
               },
               image: "path to image",
             },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
           ],
         },
         {
@@ -606,72 +231,6 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
               name: "Назва выставы",
               description: {
                 title: "",
@@ -697,7 +256,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 2,
@@ -708,62 +266,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -776,78 +278,13 @@ const textContent = {
               id: 1,
               name: "Назва выставы",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Строй дзяўчыны-падлетка.",
+                subtitle:
+                  "Строй складана адназначна ідэнтыфікаваць з-за гісторыі сям'і, з якой ён паходзіць.",
+                paragraph:
+                  "Сям'я паходзіць з вёскі Смалічы, Копыльскі раён, Мінская вобласць. У перыяд з другой паловы 1940-х гадоў да канца 1950-х частыя пераезды ў межах Пінскай вобласці ўскладняюць атрыбуцыю. Верагодней усяго пашыты ў сярэдзіне 1950-х гадоў, г. Целяханы ці г. Лагішын, Пінскай вобласці (зараз Брэсцкая вобласць). Знайдзены ў вёске Смалічы.",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -855,85 +292,7 @@ const textContent = {
           name: "Mahiliou",
           description:
             "Усходняя вобласць дэманструе такія ж тыповыя прыклады вышыўкі ў касцюме, як і захад краіны. Гэта ярка паказвае як агульную ідэнтычнасць можна прасачыць праз калектыўнае разуменне адзення.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-          ],
+          exhibition: [],
         },
       ],
     },
@@ -954,8 +313,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image:
-                "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
             },
             {
               id: 2,
@@ -966,63 +323,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image:
-                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-            },
-            {
-              id: 3,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-            },
-            {
-              id: 4,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -1045,73 +345,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -1129,7 +362,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 2,
@@ -1140,62 +372,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -1213,76 +389,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image:
-                "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-            },
-            {
-              id: 2,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image:
-                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-            },
-            {
-              id: 3,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image:
-                "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-            },
-            {
-              id: 4,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
             },
           ],
         },
@@ -1290,85 +396,7 @@ const textContent = {
           name: "Mahiliou",
           description:
             "Восточная область демонстрирует такие же типичные примеры вышивки в костюме, как и запад страны. Это ярко показывает как общую идентичность можно проследить через коллективное понимание костюма.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 2,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 3,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 4,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 5,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 6,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-            {
-              id: 7,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-              image: "path to image",
-            },
-          ],
+          exhibition: [],
         },
       ],
     },
@@ -1378,172 +406,64 @@ const textContent = {
 const imageContent = {
   homepage: {},
   about: {},
-  regions: {
-    brest: [
-      {
-        id: "1",
-        image:
-          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-      },
-      {
-        id: "2",
-        image:
-          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-      },
-      {
-        id: "3",
-        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-      },
-      {
-        id: "4",
-        image: "",
-      },
-      {
-        id: "5",
-        image: "",
-      },
-      {
-        id: "6",
-        image: "",
-      },
-      {
-        id: "7",
-        image: "",
-      },
-    ],
-    homel: [
-      {
-        id: "1",
-        image:
-          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-      },
-      {
-        id: "2",
-        image:
-          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-      },
-      {
-        id: "3",
-        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-      },
-      {
-        id: "4",
-        image: "",
-      },
-      {
-        id: "5",
-        image: "",
-      },
-      {
-        id: "6",
-        image: "",
-      },
-      {
-        id: "7",
-        image: "",
-      },
-    ],
-    hrodna: [
-      {
-        id: "1",
-        image:
-          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-      },
-      {
-        id: "2",
-        image:
-          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-      },
-      {
-        id: "3",
-        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-      },
-      {
-        id: "4",
-        image: "",
-      },
-      {
-        id: "5",
-        image: "",
-      },
-      {
-        id: "6",
-        image: "",
-      },
-      {
-        id: "7",
-        image: "",
-      },
-    ],
-    viciebks: [],
-    minsk: [
-      {
-        id: "1",
-        image:
-          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-      },
-      {
-        id: "2",
-        image:
-          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-      },
-      {
-        id: "3",
-        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-      },
-      {
-        id: "4",
-        image: "",
-      },
-      {
-        id: "5",
-        image: "",
-      },
-      {
-        id: "6",
-        image: "",
-      },
-      {
-        id: "7",
-        image: "",
-      },
-    ],
-    mahiliou: [
-      {
-        id: "1",
-        image:
-          "https://i.postimg.cc/L43BfrFJ/85257794-280578909592745-5139936381796588779-n.jpg",
-      },
-      {
-        id: "2",
-        image:
-          "https://i.postimg.cc/gk0RhjK7/77170316-1460845767421835-1882814319713675709-n.jpg",
-      },
-      {
-        id: "3",
-        image: "https://i.postimg.cc/s2CvTgps/SIvzt-C6f-OGY.jpg",
-      },
-      {
-        id: "4",
-        image: "",
-      },
-      {
-        id: "5",
-        image: "",
-      },
-      {
-        id: "6",
-        image: "",
-      },
-      {
-        id: "7",
-        image: "",
-      },
-    ],
-  },
+  regions: [
+    {
+      name: "Brest",
+      exhibitions: [
+        {
+          id: 1,
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-1-1.jpg${sas}`,
+        },
+        {
+          id: 2,
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-2-1.jpg${sas}`,
+        },
+      ],
+    },
+    {
+      name: "Homel",
+      exhibitions: [
+        {
+          id: 1,
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-1-1.jpg${sas}`,
+        },
+        {
+          id: 2,
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-2-1.jpg${sas}`,
+        },
+      ],
+    },
+    {
+      name: "Hrodna",
+      exhibitions: [
+        {
+          id: 1,
+          image: `https://polyreactsa.blob.core.windows.net/images/grodno/grodno-1-1.jpg${sas}`,
+        },
+      ],
+    },
+    {
+      name: "Viciebsk",
+      exhibitions: [],
+    },
+    {
+      name: "Minsk",
+      exhibitions: [
+        {
+          id: 1,
+          image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-1.jpg${sas}`,
+        },
+      ],
+    },
+    {
+      name: "Mahiliou",
+      exhibitions: [],
+    },
+  ],
 };
 
 const initialStoreData = {
+  state: { ...state },
   textContent: { ...textContent },
   imageContent: { ...imageContent },
 };

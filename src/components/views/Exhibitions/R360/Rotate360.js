@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Rotate360.css";
 
-const pixelsPerDegree = 5; // adjust the sensitivity, higher values make mouse less sensitive
+const pixelsPerDegree = 3; // adjust the sensitivity, higher values make mouse less sensitive
 
 class Rotate360 extends Component {
   static defaultProps = { dir: "awair-360", numImages: 55 };
@@ -10,16 +10,37 @@ class Rotate360 extends Component {
     dragging: false,
     imageIndex: 1,
     dragStartIndex: 1,
+    imgArr: [],
   };
 
   componentDidMount = () => {
     document.addEventListener("mousemove", this.handleMouseMove, false);
     document.addEventListener("mouseup", this.handleMouseUp, false);
+    this.preloadImages();
   };
 
   componentWillUnmount = () => {
     document.removeEventListener("mousemove", this.handleMouseMove, false);
     document.removeEventListener("mouseup", this.handleMouseUp, false);
+  };
+
+  preloadImages = () => {
+    const arr = [];
+
+    for (let i = 1; i <= 22; i++) {
+      let image = new Image();
+      image.src = `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-${i}.jpg?sp=r&st=2022-02-15T17:13:20Z&se=2022-03-30T01:13:20Z&spr=https&sv=2020-08-04&sr=c&sig=CveLxLSKlLTrYsezdHHzNYpySvlub42nM%2FF7NX8y3Pw%3D`;
+      image.alt = i;
+      image.className = "rotate-360-img";
+
+      arr.push(image);
+    }
+
+    this.setState({
+      imgArr: arr,
+    });
+
+    // console.log(imgArr[0]);
   };
 
   handleMouseDown = (e) => {
@@ -36,7 +57,7 @@ class Rotate360 extends Component {
   };
 
   updateImageIndex = (currentPosition) => {
-    let numImages = 21;
+    let numImages = 22;
     const pixelsPerImage = pixelsPerDegree * (360 / numImages);
     const { dragStart, imageIndex, dragStartIndex } = this.state;
     // pixels moved
@@ -64,13 +85,15 @@ class Rotate360 extends Component {
   };
 
   renderImage = () => {
-    const { imageIndex } = this.state;
-
-    console.log(imageIndex);
+    const { imageIndex, imgArr } = this.state;
+    let src =
+      imgArr.length > 0
+        ? imgArr[imageIndex - 1].src
+        : `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-${imageIndex}.jpg?sp=r&st=2022-02-15T17:13:20Z&se=2022-03-30T01:13:20Z&spr=https&sv=2020-08-04&sr=c&sig=CveLxLSKlLTrYsezdHHzNYpySvlub42nM%2FF7NX8y3Pw%3D`;
 
     return (
       <div className="rotate360">
-        <img className="rotate-360-img" alt="" src={"../1.jpg"} />
+        <img className="rotate-360-img" alt="" src={src} />
       </div>
     );
   };

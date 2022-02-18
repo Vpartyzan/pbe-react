@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Header from "../Header/HeaderConteiner";
+import Header from "../Header/HeaderContainer";
 
 // import styles from "./MainLayout.module.scss";
 

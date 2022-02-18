@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
@@ -8,8 +9,26 @@ import Rotate360 from "./R360/Rotate360";
 
 import styles from "./Exhibitions.module.scss";
 
-const Exhibitions = () => {
+const Exhibitions = (props) => {
   const [curPosition, setCurPosition] = useState(0);
+
+  const currentTextContent = props.textContent[0].regions.filter(
+    (region) => region.name === props.currentRegion
+  )[0];
+
+  const activeExhTextCont = currentTextContent.exhibition.filter(
+    (exhibition) => exhibition.id === props.activeExhibition
+  )[0];
+
+  const curImgCont = props.imageContent.regions.filter(
+    (region) => region.name === props.currentRegion
+  )[0];
+
+  const activeExhImgCont = curImgCont.exhibitions.filter(
+    (exhibition) => exhibition.id === props.activeExhibition
+  )[0];
+
+  // console.log(props);
 
   const handleUp = function () {
     let height = 115;
@@ -50,27 +69,17 @@ const Exhibitions = () => {
               className={styles.wrapper}
               style={{ marginTop: `${curPosition}px` }}
             >
-              <li>
-                <img
-                  className={styles.active}
-                  src="https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
-                />
-              </li>
-              <li>
-                <img src="https://i.postimg.cc/ryDCr2tc/85257794-280578909592745-5139936381796588779-n.jpg" />
-              </li>
-              <li>
-                <img src="https://i.postimg.cc/Gp3v3W1W/77170316-1460845767421835-1882814319713675709-n.jpg" />
-              </li>
-              <li>
-                <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" />
-              </li>
-              <li>
-                <img src="https://i.postimg.cc/ryDCr2tc/85257794-280578909592745-5139936381796588779-n.jpg" />
-              </li>
-              <li>
-                <img src="https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg" />
-              </li>
+              {curImgCont.exhibitions.map((item) => (
+                <li key={item.id}>
+                  <img
+                    className={
+                      item.id === props.activeExhibition ? styles.active : ""
+                    }
+                    src={item.image}
+                    onClick={() => props.changeExhibition(item.id)}
+                  />
+                </li>
+              ))}
             </ul>
           </div>
           <ArrowDropDownIcon
@@ -102,6 +111,14 @@ const Exhibitions = () => {
       </div>
     </div>
   );
+};
+
+Exhibitions.propTypes = {
+  currentRegion: PropTypes.string.isRequired,
+  textContent: PropTypes.array.isRequired,
+  imageContent: PropTypes.object.isRequired,
+  changeExhibition: PropTypes.func.isRequired,
+  activeExhibition: PropTypes.string.isRequired,
 };
 
 export default Exhibitions;

@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import Header from "./Header";
 
-import { changeLanguage } from "../../../redux/languageRedux";
+import { changeLanguage } from "../../../redux/stateRedux";
 
 // const mapStateToProps = (state) => ({
 //   textContent: state.textContent,
@@ -11,10 +11,7 @@ export const getTextContent = ({ content }, currentLanguage) =>
   content.filter((content) => content.language === currentLanguage);
 
 const mapStateToProps = (state) => ({
-  textContent: getTextContent(
-    state.textContent,
-    state.textContent.currentLanguage
-  ),
+  textContent: getTextContent(state.textContent, state.state.currentLanguage),
 });
 
 const mapDispatchToProps = (dispatch) => ({

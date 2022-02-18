@@ -1,16 +1,17 @@
 import { combineReducers, createStore } from "redux";
 import initialStoreData from "../data/dataStore";
-import languageReducer from "./languageRedux";
+import stateReducer from "./stateRedux";
 
 // define initial state and shallow-merge initial data
 const initialState = {
+  state: initialStoreData.state,
   textContent: initialStoreData.textContent,
   imageContent: initialStoreData.imageContent,
 };
 
 // define reducers
 const reducers = {
-  textContent: languageReducer,
+  state: stateReducer,
 };
 
 // add blank reducers for initial state properties without reducers

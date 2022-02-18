@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import styles from "./Map.module.scss";
 
 const Map = (props) => {
-  const [currentRegion, setCurrentRegion] = useState("Minsk");
+  const currentRegion = props.currentRegion;
   const [curExhImg, setCurExhImg] = useState(
     "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
   );
@@ -16,18 +16,17 @@ const Map = (props) => {
   )[0];
 
   const handleClick = function (e) {
-    setCurrentRegion(e.target.id);
+    props.changeRegion(e.target.id);
   };
 
   const handleOver = function (e) {
-    let curExh;
+    const curImgCont = props.imageContent.regions.filter(
+      (region) => region.name === props.currentRegion
+    )[0];
 
-    for (let region in props.imageContent.regions) {
-      if (region === currentRegion.toLowerCase()) {
-        let curExhReg = props.imageContent.regions[currentRegion.toLowerCase()];
-        curExh = curExhReg.filter((item) => item.id === e.target.id)[0];
-      }
-    }
+    const curExh = curImgCont.exhibitions.filter(
+      (exhibition) => exhibition.id === +e.target.id
+    )[0];
 
     if (curExh.image !== "") {
       setCurExhImg(curExh.image);
@@ -39,6 +38,8 @@ const Map = (props) => {
       "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
     );
   };
+
+  // const handleClick = function () {};
 
   return (
     <div className={styles.container}>
@@ -133,6 +134,7 @@ const Map = (props) => {
               key={item.id}
               onMouseOver={handleOver}
               onMouseOut={handleOut}
+              onClick={() => props.changeExhibition(item.id)}
             >
               <li
                 style={{
@@ -154,8 +156,12 @@ const Map = (props) => {
 };
 
 Map.propTypes = {
+  currentRegion: PropTypes.string.isRequired,
   textContent: PropTypes.array.isRequired,
-  imageContent: PropTypes.object,
+  imageContent: PropTypes.object.isRequired,
+  changeRegion: PropTypes.func.isRequired,
+  activeExhibition: PropTypes.number.isRequired,
+  changeExhibition: PropTypes.func.isRequired,
 };
 
 export default Map;
