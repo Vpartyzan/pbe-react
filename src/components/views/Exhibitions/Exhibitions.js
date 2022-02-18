@@ -28,7 +28,7 @@ const Exhibitions = (props) => {
     (exhibition) => exhibition.id === props.activeExhibition
   )[0];
 
-  // console.log("Ex", activeExhImgCont);
+  console.log("Ex", activeExhTextCont);
 
   const handleUp = function () {
     let height = 115;
@@ -91,20 +91,11 @@ const Exhibitions = (props) => {
       </div>
 
       <div className={styles.description}>
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <h3>{activeExhTextCont.description.title}</h3>
+        <p>{activeExhTextCont.description.subtitle}</p>
+        <p>{activeExhTextCont.description.paragraph}</p>
         <div className={styles.btn_container}>
-          <NavLink to="/map" className={styles.btn}>
+          <NavLink to="/about" className={styles.btn}>
             Full Gallery →
           </NavLink>
         </div>

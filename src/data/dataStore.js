@@ -171,11 +171,13 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Name of exhibition",
+              name: "The outfit of a teenage girl",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "The outfit of a teenage girl",
+                subtitle:
+                  "The system is difficult to unambiguously identify because of the family history it comes from",
+                paragraph:
+                  "The family comes from the village of Smalichi, Kopyl district, Minsk region. In the period from the second half of the 1940s to the end of the 1950s, frequent relocations within the Pinsk region complicated attribution. Most likely sewn in the mid-1950s, Teliakhany or Logishyn, Pinsk region (now Brest region). Found in the village of Smalichi.",
                 btn: "",
               },
             },
@@ -286,7 +288,7 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Назва выставы",
+              name: "Строй дзяўчыны-падлетка.",
               description: {
                 title: "Строй дзяўчыны-падлетка.",
                 subtitle:

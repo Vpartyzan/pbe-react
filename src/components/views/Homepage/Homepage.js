@@ -82,11 +82,14 @@ const Homepage = (props) => {
               </span>
             </div>
           </div>
-          <NavLink to="/map" className={styles.table_img}>
-            {/* <Map /> */}
+          <div className={styles.table_img}>
             <EuroMap />
-            {/* <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" /> */}
-          </NavLink>
+          </div>
+          {/* <NavLink to="/map" className={styles.table_img}>
+            {/* <Map /> */}
+          {/* <EuroMap /> */}
+          {/* <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" /> */}
+          {/* </NavLink> */}
         </div>
       </div>
     </div>
