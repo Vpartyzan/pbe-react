@@ -63,7 +63,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This application is ment to be hosted with Azure Blob storage. [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website)
 
 ### `yarn build` fails to minify
 
