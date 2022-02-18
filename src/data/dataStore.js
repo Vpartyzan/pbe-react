@@ -119,7 +119,7 @@ const textContent = {
           exhibition: [],
         },
         {
-          name: "Hrodna",
+          name: "Grodno",
           description:
             "Despite the rapid departure of the 'village' fashion from the everyday life of the west of the country, the examples are noticeably similar with Brest and Minsk regions.",
           exhibition: [
@@ -136,7 +136,7 @@ const textContent = {
           ],
         },
         {
-          name: "Homel",
+          name: "Gomel",
           description:
             "The region is rich in bright colors. What’s distinctive about it is that inhabitants used variations of the folk costume almost until the end of the 20th century.",
           exhibition: [
@@ -225,7 +225,7 @@ const textContent = {
           exhibition: [],
         },
         {
-          name: "Hrodna",
+          name: "Grodno",
           description:
             "Нягледзячы на хуткі сыход 'вясковай' моды з ужытку захада краіны, знойдзеныя прыклады прыкметна пераклікаюцца з брэсцкім і цэнтральным рэгіёнам.",
           exhibition: [
@@ -243,7 +243,7 @@ const textContent = {
           ],
         },
         {
-          name: "Homel",
+          name: "Gomel",
           description:
             "Багаты на яркія фарбы край, жыхары якога выкарыстоўвалі варыяцыі народнага строя амаль да канца 20-га стагоддзя.",
           exhibition: [
@@ -332,7 +332,7 @@ const textContent = {
           exhibition: [],
         },
         {
-          name: "Hrodna",
+          name: "Grodno",
           description:
             "Несмотря на быстрый уход «деревенской» моды из обихода запада страны, найденные примеры заметно перекликаются с брестским и центральным регионом.",
           exhibition: [
@@ -349,7 +349,7 @@ const textContent = {
           ],
         },
         {
-          name: "Homel",
+          name: "Gomel",
           description:
             "Богатый на яркие краски край, жители которого использовали вариации народного костюма почти до конца 20-го века.",
           exhibition: [
@@ -412,32 +412,47 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
+          amountImg: "16",
           image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-1-1.jpg${sas}`,
         },
         {
           id: 2,
+          amountImg: "23",
           image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-2-1.jpg${sas}`,
+        },
+        {
+          id: 3,
+          amountImg: "22",
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-3-1.jpg${sas}`,
         },
       ],
     },
     {
-      name: "Homel",
+      name: "Gomel",
       exhibitions: [
         {
           id: 1,
+          amountImg: "19",
           image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-1-1.jpg${sas}`,
         },
         {
           id: 2,
+          amountImg: "19",
           image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-2-1.jpg${sas}`,
+        },
+        {
+          id: 3,
+          amountImg: "23",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-3-1.jpg${sas}`,
         },
       ],
     },
     {
-      name: "Hrodna",
+      name: "Grodno",
       exhibitions: [
         {
           id: 1,
+          amountImg: "19",
           image: `https://polyreactsa.blob.core.windows.net/images/grodno/grodno-1-1.jpg${sas}`,
         },
       ],
@@ -451,6 +466,7 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
+          amountImg: "22",
           image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-1.jpg${sas}`,
         },
       ],

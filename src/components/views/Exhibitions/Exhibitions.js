@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
-import Rotate360 from "./R360/Rotate360";
+import Rotate360 from "./R360/RotateContainer";
 
 import styles from "./Exhibitions.module.scss";
 
@@ -28,7 +28,7 @@ const Exhibitions = (props) => {
     (exhibition) => exhibition.id === props.activeExhibition
   )[0];
 
-  // console.log(props);
+  // console.log("Ex", activeExhImgCont);
 
   const handleUp = function () {
     let height = 115;
@@ -53,7 +53,7 @@ const Exhibitions = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.curfoto}>
-        <Rotate360 />
+        <Rotate360 amountImg={+activeExhImgCont.amountImg} />
       </div>
       <div className={styles.allfoto}>
         <div className={styles.carusel}>
@@ -118,7 +118,7 @@ Exhibitions.propTypes = {
   textContent: PropTypes.array.isRequired,
   imageContent: PropTypes.object.isRequired,
   changeExhibition: PropTypes.func.isRequired,
-  activeExhibition: PropTypes.string.isRequired,
+  activeExhibition: PropTypes.number.isRequired,
 };
 
 export default Exhibitions;
