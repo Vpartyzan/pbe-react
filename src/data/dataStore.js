@@ -232,6 +232,36 @@ const textContent = {
                 btn: "",
               },
             },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
           ],
         },
         {
@@ -248,6 +278,26 @@ const textContent = {
                   "It is difficult to unambiguously identify because of the family history it comes from.",
                 paragraph:
                   "The family comes from the village of Smalichi, Kopyl district, Minsk region. In the period from the second half of the 1940s to the end of the 1950s, frequent relocations within the Pinsk region complicated attribution. Most likely sewn in the mid-1950s, Teliakhany or Logishyn, Pinsk region (now Brest region). Found in the village of Smalichi.",
+                btn: "",
+              },
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
                 btn: "",
               },
             },
@@ -411,7 +461,37 @@ const textContent = {
             },
             {
               id: 3,
-              name: "Назва выставы",
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
               description: {
                 title: "",
                 subtitle: "",
@@ -435,6 +515,26 @@ const textContent = {
                   "Строй складана адназначна ідэнтыфікаваць з-за гісторыі сям'і, з якой ён паходзіць.",
                 paragraph:
                   "Сям'я паходзіць з вёскі Смалічы, Копыльскі раён, Мінская вобласць. У перыяд з другой паловы 1940-х гадоў да канца 1950-х частыя пераезды ў межах Пінскай вобласці ўскладняюць атрыбуцыю. Верагодней усяго пашыты ў сярэдзіне 1950-х гадоў, г. Целяханы ці г. Лагішын, Пінскай вобласці (зараз Брэсцкая вобласць). Знайдзены ў вёске Смалічы.",
+                btn: "",
+              },
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
                 btn: "",
               },
             },
@@ -598,7 +698,37 @@ const textContent = {
             },
             {
               id: 3,
-              name: "Название выставки",
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
               description: {
                 title: "",
                 subtitle: "",
@@ -622,6 +752,26 @@ const textContent = {
                   "Костюм трудно однозначно идентифицировать из-за истории семьи, в которой он был создан.",
                 paragraph:
                   "Семья родом из деревни Смоличи Копыльского района Минской области. В период со второй половины 1940-х до конца 1950-х годов частые переезды в пределах Пинской области затрудняли атрибуцию. Пошит, скорее всего, в середине 1950-х, Теляханы или Логишин Пинской области (ныне Брестская область). Найден в деревне Смоличи. Использовался для школьных праздников. Сохранились фотографии школьниц из этой местности, носивших такие вышитые блузки повседневно в школу.",
+                btn: "",
+              },
+            },
+            {
+              id: 2,
+              name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 3,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
                 btn: "",
               },
             },
