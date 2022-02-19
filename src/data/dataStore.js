@@ -123,6 +123,56 @@ const textContent = {
                 btn: "",
               },
             },
+            {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 8,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
           ],
         },
         {
@@ -260,6 +310,56 @@ const textContent = {
                 btn: "",
               },
             },
+                        {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 8,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
           ],
         },
         {
@@ -390,6 +490,56 @@ const textContent = {
             {
               id: 3,
               name: "Название выставки",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+                        {
+              id: 4,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 5,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 6,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 7,
+              name: "Name of exhibition",
+              description: {
+                title: "",
+                subtitle: "",
+                paragraph: "",
+                btn: "",
+              },
+            },
+            {
+              id: 8,
+              name: "Name of exhibition",
               description: {
                 title: "",
                 subtitle: "",
