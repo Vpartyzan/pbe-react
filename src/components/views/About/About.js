@@ -54,7 +54,7 @@ const About = (props) => {
         <iframe 
           src="https://www.youtube-nocookie.com/embed/JagemrPoeGU?vq=hd1080&autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&fs=0&controls=0&disablekb=1" 
           width="800" height="450" 
-          frameborder="0"
+          frameBorder="0"
          ></iframe>
       </div>
       <Map />
