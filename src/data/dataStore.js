@@ -239,7 +239,6 @@ const textContent = {
                 paragraph: "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 2,
@@ -250,7 +249,6 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
-              image: "path to image",
             },
             {
               id: 3,
@@ -283,7 +281,6 @@ const textContent = {
                 paragraph: "Зроблена прыкладна ў 1940-1950-х гадах. Гэты прыклад мае такі ж стыль вязаных каўняроў, як і ўсе астатнія ўзоры жаночага адзення, вырабленыя пасля 1940-х гадоў.",
                 btn: "",
               },
-              image: "path to image",
             },
           ],
         },
@@ -421,7 +418,6 @@ const textContent = {
                 paragraph: "Примерно 1940-1950-е года. Эта блузка примечательна тем, что имеет тот же стиль вязаных воротников, что и все остальные модели женской одежды народного стиля, изготовленные после 1940-х годов.",
                 btn: "",
               },
-              image: "path to image",
             },
           ],
         },
@@ -552,6 +548,7 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
+          amountImg: "19",
           image: `https://polyreactsa.blob.core.windows.net/images/grodno/grodno-1-1.jpg${sas}`,
         },
       ],
@@ -565,6 +562,7 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
+          amountImg: "22",
           image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-1.jpg${sas}`,
         },
       ],
