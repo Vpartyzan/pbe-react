@@ -28,7 +28,7 @@ const Map = (props) => {
       (exhibition) => exhibition.id === +e.target.id
     )[0];
 
-    if (curExh.image !== "") {
+    if (curExh) {
       setCurExhImg(curExh.image);
     }
   };

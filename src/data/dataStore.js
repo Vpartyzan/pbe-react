@@ -99,7 +99,8 @@ const textContent = {
               description: {
                 title: "Men Shirt",
                 subtitle: "Hortaĺ village, Ivacevičy district, Brest region.",
-                paragraph: "Silk embroidery. A men shirt is a pretty rare find. This one is remarkable by its&apos; specific style. It combines archaic pattern with modern coloristic.",
+                paragraph:
+                  "Silk embroidery. A men shirt is a pretty rare find. This one is remarkable by its&apos; specific style. It combines archaic pattern with modern coloristic.",
                 btn: "",
               },
             },
@@ -191,7 +192,8 @@ const textContent = {
               description: {
                 title: "Womens Blouse",
                 subtitle: "Masty district, Hrodna region.",
-                paragraph: "Made approx 1940-1950s. This example shares common knitted collar style with all post 1940s examples.",
+                paragraph:
+                  "Made approx 1940-1950s. This example shares common knitted collar style with all post 1940s examples.",
                 btn: "",
               },
             },
@@ -283,7 +285,7 @@ const textContent = {
             },
             {
               id: 2,
-              name: "Название выставки",
+              name: "Name of exhibition",
               description: {
                 title: "",
                 subtitle: "",
@@ -314,7 +316,8 @@ const textContent = {
               description: {
                 title: "Artel men's shirt",
                 subtitle: "Approx. 1940-1950s.",
-                paragraph: "The example of factory manufactured item, found in Minsk. The most known by that time artel was based in Babrujsk so we placed this shirt here as a clear example of traditional influence on fashion.",
+                paragraph:
+                  "The example of factory manufactured item, found in Minsk. The most known by that time artel was based in Babrujsk so we placed this shirt here as a clear example of traditional influence on fashion.",
                 btn: "",
               },
             },
@@ -336,7 +339,8 @@ const textContent = {
               description: {
                 title: "Мужчынская кашуля",
                 subtitle: "Вёска Горталь, Івацэвіцкі раён, Брэсцкая вобласць.",
-                paragraph: "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
+                paragraph:
+                  "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
                 btn: "",
               },
             },
@@ -360,7 +364,7 @@ const textContent = {
                 btn: "",
               },
             },
-                        {
+            {
               id: 4,
               name: "Name of exhibition",
               description: {
@@ -428,7 +432,8 @@ const textContent = {
               description: {
                 title: "Жаночая блузка",
                 subtitle: "Мастоўскі раён, Гарадзенская вобласць.",
-                paragraph: "Зроблена прыкладна ў 1940-1950-х гадах. Гэты прыклад мае такі ж стыль вязаных каўняроў, як і ўсе астатнія ўзоры жаночага адзення, вырабленыя пасля 1940-х гадоў.",
+                paragraph:
+                  "Зроблена прыкладна ў 1940-1950-х гадах. Гэты прыклад мае такі ж стыль вязаных каўняроў, як і ўсе астатнія ўзоры жаночага адзення, вырабленыя пасля 1940-х гадоў.",
                 btn: "",
               },
             },
@@ -520,7 +525,7 @@ const textContent = {
             },
             {
               id: 2,
-              name: "Название выставки",
+              name: "Назва выставы",
               description: {
                 title: "",
                 subtitle: "",
@@ -530,7 +535,7 @@ const textContent = {
             },
             {
               id: 3,
-              name: "Name of exhibition",
+              name: "Назва выставы",
               description: {
                 title: "",
                 subtitle: "",
@@ -551,7 +556,8 @@ const textContent = {
               description: {
                 title: "Арцельная мужчынская кашуля",
                 subtitle: "Прыкладна 1940-1950я гады вытворчасці.",
-                paragraph: "Прыклад арцельнай вытворчасць, знойдзена ў Мінску. Найбольш вядомая вышывальніцкая арцель знаходзілася ў Бабруйску, таму мы размясцілі гэтую кашулю тут як прыклад уплыву традыцыйнага адзення на модную вытворчасць.",
+                paragraph:
+                  "Прыклад арцельнай вытворчасць, знойдзена ў Мінску. Найбольш вядомая вышывальніцкая арцель знаходзілася ў Бабруйску, таму мы размясцілі гэтую кашулю тут як прыклад уплыву традыцыйнага адзення на модную вытворчасць.",
                 btn: "",
               },
             },
@@ -572,8 +578,10 @@ const textContent = {
               name: "Мужская сорочка",
               description: {
                 title: "Мужская сорочка",
-                subtitle: "Деревня Гортоль, Ивацевичский раён, Брестская область.",
-                paragraph: "Шелковая вышивка цветными нитками. Мужская рубашка сама сама по себе – довольно редкая находка. Эта уникальна еще и своим специфическим стилем: он сочетает в себе архаичный рисунок с современной колористикой.",
+                subtitle:
+                  "Деревня Гортоль, Ивацевичский раён, Брестская область.",
+                paragraph:
+                  "Шелковая вышивка цветными нитками. Мужская рубашка сама сама по себе – довольно редкая находка. Эта уникальна еще и своим специфическим стилем: он сочетает в себе архаичный рисунок с современной колористикой.",
                 btn: "",
               },
             },
@@ -597,7 +605,7 @@ const textContent = {
                 btn: "",
               },
             },
-                        {
+            {
               id: 4,
               name: "Name of exhibition",
               description: {
@@ -665,7 +673,8 @@ const textContent = {
               description: {
                 title: "Женская блузка",
                 subtitle: "Мостовскій район, Гродненская область.",
-                paragraph: "Примерно 1940-1950-е года. Эта блузка примечательна тем, что имеет тот же стиль вязаных воротников, что и все остальные модели женской одежды народного стиля, изготовленные после 1940-х годов.",
+                paragraph:
+                  "Примерно 1940-1950-е года. Эта блузка примечательна тем, что имеет тот же стиль вязаных воротников, что и все остальные модели женской одежды народного стиля, изготовленные после 1940-х годов.",
                 btn: "",
               },
             },
@@ -788,7 +797,8 @@ const textContent = {
               description: {
                 title: "Артельная Мужская рубашка",
                 subtitle: "Примерно 1940-1950я годы создания.",
-                paragraph: "Пример артельного производства, найдена в Минске. Наиболее известная вышивальщицкая артель находилась в городе Бобруйск, потому мы разместили эту сорочку здесь как пример влияния традиционной одежды на модную индустрию того времени.",
+                paragraph:
+                  "Пример артельного производства, найдена в Минске. Наиболее известная вышивальщицкая артель находилась в городе Бобруйск, потому мы разместили эту сорочку здесь как пример влияния традиционной одежды на модную индустрию того времени.",
                 btn: "",
               },
             },
