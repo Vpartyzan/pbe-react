@@ -51,14 +51,10 @@ const About = (props) => {
       </div>
       <div className={styles.table_img}>
         {/* <img src="https://i.postimg.cc/dtrFDW8n/pexels-rodnae-productions-8474810.jpg" /> */}
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/JagemrPoeGU?controls=0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/JagemrPoeGU?vq=hd1080&autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&fs=0&controls=0&disablekb=1" 
+          width="800" height="450" 
+          frameborder="0"
         ></iframe>
       </div>
       <Map />
