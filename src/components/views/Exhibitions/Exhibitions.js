@@ -53,7 +53,9 @@ const Exhibitions = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.curfoto}>
-        <Rotate360 amountImg={+activeExhImgCont.amountImg} />
+        <Rotate360
+          amountImg={activeExhImgCont ? +activeExhImgCont.amountImg : ""}
+        />
       </div>
       <div className={styles.allfoto}>
         <div className={styles.carusel}>
