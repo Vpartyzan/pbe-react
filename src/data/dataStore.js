@@ -95,11 +95,11 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Name of exhibition",
+              name: "Men Shirt",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Men Shirt",
+                subtitle: "Hortaĺ village, Ivacevičy district, Brest region.",
+                paragraph: "Silk embroidery. A men shirt is a pretty rare find. This one is remarkable by its&apos; specific style. It combines archaic pattern with modern coloristic.",
                 btn: "",
               },
             },
@@ -137,11 +137,11 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Name of exhibition",
+              name: "Womens Blouse",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Womens Blouse",
+                subtitle: "Masty district, Hrodna region.",
+                paragraph: "Made approx 1940-1950s. This example shares common knitted collar style with all post 1940s examples.",
                 btn: "",
               },
             },
@@ -195,7 +195,7 @@ const textContent = {
               description: {
                 title: "The outfit of a teenage girl",
                 subtitle:
-                  "The system is difficult to unambiguously identify because of the family history it comes from",
+                  "It is difficult to unambiguously identify because of the family history it comes from.",
                 paragraph:
                   "The family comes from the village of Smalichi, Kopyl district, Minsk region. In the period from the second half of the 1940s to the end of the 1950s, frequent relocations within the Pinsk region complicated attribution. Most likely sewn in the mid-1950s, Teliakhany or Logishyn, Pinsk region (now Brest region). Found in the village of Smalichi.",
                 btn: "",
@@ -210,11 +210,11 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Name of exhibition",
+              name: "Artel men's shirt",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Artel men's shirt",
+                subtitle: "Approx. 1940-1950s.",
+                paragraph: "The example of factory manufactured item, found in Minsk. The most known by that time artel was based in Babrujsk so we placed this shirt here as a clear example of traditional influence on fashion.",
                 btn: "",
               },
             },
@@ -232,13 +232,14 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Назва выставы",
+              name: "Мужчынская кашуля",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Мужчынская кашуля",
+                subtitle: "Вёска Горталь, Івацэвіцкі раён, Брэсцкая вобласць.",
+                paragraph: "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
                 btn: "",
               },
+              image: "path to image",
             },
             {
               id: 2,
@@ -249,6 +250,7 @@ const textContent = {
                 paragraph: "",
                 btn: "",
               },
+              image: "path to image",
             },
             {
               id: 3,
@@ -274,13 +276,14 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Назва выставы",
+              name: "Жаночая блузка",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Жаночая блузка",
+                subtitle: "Мастоўскі раён, Гарадзенская вобласць.",
+                paragraph: "Зроблена прыкладна ў 1940-1950-х гадах. Гэты прыклад мае такі ж стыль вязаных каўняроў, як і ўсе астатнія ўзоры жаночага адзення, вырабленыя пасля 1940-х гадоў.",
                 btn: "",
               },
+              image: "path to image",
             },
           ],
         },
@@ -344,7 +347,18 @@ const textContent = {
           name: "Mahiliou",
           description:
             "Усходняя вобласць дэманструе такія ж тыповыя прыклады вышыўкі ў касцюме, як і захад краіны. Гэта ярка паказвае як агульную ідэнтычнасць можна прасачыць праз калектыўнае разуменне адзення.",
-          exhibition: [],
+          exhibition: [
+            {
+              id: 1,
+              name: "Арцельная мужчынская кашуля",
+              description: {
+                title: "Арцельная мужчынская кашуля",
+                subtitle: "Прыкладна 1940-1950я гады вытворчасці.",
+                paragraph: "Прыклад арцельнай вытворчасць, знойдзена ў Мінску. Найбольш вядомая вышывальніцкая арцель знаходзілася ў Бабруйску, таму мы размясцілі гэтую кашулю тут як прыклад уплыву традыцыйнага адзення на модную вытворчасць.",
+                btn: "",
+              },
+            },
+          ],
         },
       ],
     },
@@ -358,11 +372,11 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Название выставки",
+              name: "Мужская сорочка",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Мужская сорочка",
+                subtitle: "Деревня Гортоль, Ивацевичский раён, Брестская область.",
+                paragraph: "Шелковая вышивка цветными нитками. Мужская рубашка сама сама по себе – довольно редкая находка. Эта уникальна еще и своим специфическим стилем: он сочетает в себе архаичный рисунок с современной колористикой.",
                 btn: "",
               },
             },
@@ -400,13 +414,14 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Название выставки",
+              name: "Женская блузка",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Женская блузка",
+                subtitle: "Мостовскій район, Гродненская область.",
+                paragraph: "Примерно 1940-1950-е года. Эта блузка примечательна тем, что имеет тот же стиль вязаных воротников, что и все остальные модели женской одежды народного стиля, изготовленные после 1940-х годов.",
                 btn: "",
               },
+              image: "path to image",
             },
           ],
         },
@@ -454,11 +469,13 @@ const textContent = {
           exhibition: [
             {
               id: 1,
-              name: "Название выставки",
+              name: "Костюм девушки-подростка",
               description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
+                title: "Костюм девушки-подростка",
+                subtitle:
+                  "Костюм трудно однозначно идентифицировать из-за истории семьи, в которой он был создан.",
+                paragraph:
+                  "Семья родом из деревни Смоличи Копыльского района Минской области. В период со второй половины 1940-х до конца 1950-х годов частые переезды в пределах Пинской области затрудняли атрибуцию. Пошит, скорее всего, в середине 1950-х, Теляханы или Логишин Пинской области (ныне Брестская область). Найден в деревне Смоличи. Использовался для школьных праздников. Сохранились фотографии школьниц из этой местности, носивших такие вышитые блузки повседневно в школу.",
                 btn: "",
               },
             },
@@ -468,7 +485,18 @@ const textContent = {
           name: "Mahiliou",
           description:
             "Восточная область демонстрирует такие же типичные примеры вышивки в костюме, как и запад страны. Это ярко показывает как общую идентичность можно проследить через коллективное понимание костюма.",
-          exhibition: [],
+          exhibition: [
+            {
+              id: 1,
+              name: "Артельная Мужская рубашка",
+              description: {
+                title: "Артельная Мужская рубашка",
+                subtitle: "Примерно 1940-1950я годы создания.",
+                paragraph: "Пример артельного производства, найдена в Минске. Наиболее известная вышивальщицкая артель находилась в городе Бобруйск, потому мы разместили эту сорочку здесь как пример влияния традиционной одежды на модную индустрию того времени.",
+                btn: "",
+              },
+            },
+          ],
         },
       ],
     },
@@ -524,7 +552,6 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
-          amountImg: "19",
           image: `https://polyreactsa.blob.core.windows.net/images/grodno/grodno-1-1.jpg${sas}`,
         },
       ],
@@ -538,7 +565,6 @@ const imageContent = {
       exhibitions: [
         {
           id: 1,
-          amountImg: "22",
           image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-1.jpg${sas}`,
         },
       ],
