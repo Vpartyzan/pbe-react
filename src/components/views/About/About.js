@@ -6,8 +6,8 @@ import Map from "../Map/MapContainer";
 import styles from "./About.module.scss";
 
 const About = (props) => {
-  const content = props.textContent[0].about;
-  const language = props.textContent[0].language;
+  const content = props.content[0].about;
+  const language = props.content[0].language;
 
   return (
     <div className={styles.container}>
@@ -64,7 +64,7 @@ const About = (props) => {
 };
 
 About.propTypes = {
-  textContent: PropTypes.array.isRequired,
+  content: PropTypes.array.isRequired,
 };
 
 export default About;

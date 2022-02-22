@@ -7,8 +7,8 @@ import EuroMap from "./EuroMap/EuroMap";
 import styles from "./Homepage.module.scss";
 
 const Homepage = (props) => {
-  const content = props.textContent[0].homePage;
-  const language = props.textContent[0].language;
+  const content = props.content[0].homePage;
+  const language = props.content[0].language;
 
   return (
     <div className={styles.container}>
@@ -97,7 +97,7 @@ const Homepage = (props) => {
 };
 
 Homepage.propTypes = {
-  textContent: PropTypes.array.isRequired,
+  content: PropTypes.array.isRequired,
 };
 
 export default Homepage;

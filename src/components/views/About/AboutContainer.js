@@ -1,11 +1,11 @@
 import { connect } from "react-redux";
 import About from "./About";
 
-export const getTextContent = ({ content }, currentLanguage) =>
-  content.filter((content) => content.language === currentLanguage);
+export const getTextContent = ({ textContent }, currentLanguage) =>
+  textContent.filter((textContent) => textContent.language === currentLanguage);
 
 const mapStateToProps = (state) => ({
-  textContent: getTextContent(state.textContent, state.state.currentLanguage),
+  content: getTextContent(state.content, state.state.currentLanguage),
 });
 
 export default connect(mapStateToProps)(About);

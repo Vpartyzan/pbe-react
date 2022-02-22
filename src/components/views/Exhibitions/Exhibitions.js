@@ -10,25 +10,27 @@ import Rotate360 from "./R360/RotateContainer";
 import styles from "./Exhibitions.module.scss";
 
 const Exhibitions = (props) => {
+  const currentLanguage = props.currentLanguage;
+  const activeExhibition = props.activeExhibition;
   const [curPosition, setCurPosition] = useState(0);
 
-  const currentTextContent = props.textContent[0].regions.filter(
-    (region) => region.name === props.currentRegion
+  const region = props.content[0].exhibition.filter(
+    (exh) => exh.id === activeExhibition
   )[0];
 
-  const activeExhTextCont = currentTextContent.exhibition.filter(
+  const activeExhTextCont = region.content.filter(
+    (content) => content.language === currentLanguage
+  )[0];
+
+  console.log(props.content[0].exhibition);
+
+  const curImgCont = props.content[0];
+
+  const activeExhImgCont = curImgCont.exhibition.filter(
     (exhibition) => exhibition.id === props.activeExhibition
   )[0];
 
-  const curImgCont = props.imageContent.regions.filter(
-    (region) => region.name === props.currentRegion
-  )[0];
-
-  const activeExhImgCont = curImgCont.exhibitions.filter(
-    (exhibition) => exhibition.id === props.activeExhibition
-  )[0];
-
-  console.log("Ex", activeExhTextCont);
+  // console.log("Ex", activeExhTextCont);
 
   const handleUp = function () {
     let height = 115;
@@ -71,7 +73,7 @@ const Exhibitions = (props) => {
               className={styles.wrapper}
               style={{ marginTop: `${curPosition}px` }}
             >
-              {curImgCont.exhibitions.map((item) => (
+              {curImgCont.exhibition.map((item) => (
                 <li key={item.id}>
                   <img
                     className={
@@ -93,9 +95,9 @@ const Exhibitions = (props) => {
       </div>
 
       <div className={styles.description}>
-        <h3>{activeExhTextCont.description.title}</h3>
-        <p>{activeExhTextCont.description.subtitle}</p>
-        <p>{activeExhTextCont.description.paragraph}</p>
+        <h3>{activeExhTextCont.title}</h3>
+        <p>{activeExhTextCont.subtitle}</p>
+        <p>{activeExhTextCont.paragraph}</p>
         <div className={styles.btn_container}>
           <NavLink to="/about" className={styles.btn}>
             Full Gallery →
@@ -107,8 +109,9 @@ const Exhibitions = (props) => {
 };
 
 Exhibitions.propTypes = {
+  currentLanguage: PropTypes.string.isRequired,
   currentRegion: PropTypes.string.isRequired,
-  textContent: PropTypes.array.isRequired,
+  content: PropTypes.array.isRequired,
   imageContent: PropTypes.object.isRequired,
   changeExhibition: PropTypes.func.isRequired,
   activeExhibition: PropTypes.number.isRequired,

@@ -7,7 +7,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import styles from "./Header.module.scss";
 
 const Header = (props) => {
-  const content = props.textContent[0].header;
+  const content = props.content[0].header;
 
   const handleClick = function (e) {
     // console.log(e.target.innerText.toLowerCase());
@@ -65,7 +65,7 @@ const Header = (props) => {
 };
 
 Header.propTypes = {
-  textContent: PropTypes.array.isRequired,
+  content: PropTypes.array.isRequired,
   changeLanguage: PropTypes.func,
 };
 

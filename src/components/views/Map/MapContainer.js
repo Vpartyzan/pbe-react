@@ -3,14 +3,13 @@ import Map from "./Map";
 
 import { changeRegion, changeExhibition } from "../../../redux/stateRedux";
 
-const getTextContent = ({ exhibitions }, currentLanguage) =>
-  exhibitions.filter((exhibitions) => exhibitions.language === currentLanguage);
+const getExhibitions = ({ regions }, currentRegion) =>
+  regions.filter((region) => region.name === currentRegion);
 
 const mapStateToProps = (state) => ({
-  textContent: getTextContent(state.textContent, state.state.currentLanguage),
-  imageContent: state.imageContent,
+  content: getExhibitions(state.content, state.state.currentRegion),
   currentRegion: state.state.currentRegion,
-  activeExhibition: state.state.activeExhibition,
+  currentLanguage: state.state.currentLanguage,
 });
 
 const mapDispatchToProps = (dispatch) => ({

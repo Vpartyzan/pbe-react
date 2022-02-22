@@ -5,8 +5,7 @@ import stateReducer from "./stateRedux";
 // define initial state and shallow-merge initial data
 const initialState = {
   state: initialStoreData.state,
-  textContent: initialStoreData.textContent,
-  imageContent: initialStoreData.imageContent,
+  content: initialStoreData.content,
 };
 
 // define reducers

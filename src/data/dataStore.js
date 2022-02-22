@@ -9,8 +9,8 @@ const state = {
   activeExhibition: 1,
 };
 
-const textContent = {
-  content: [
+const content = {
+  textContent: [
     {
       language: "eng",
       homePage: {
@@ -84,806 +84,634 @@ const textContent = {
       },
     },
   ],
-  exhibitions: [
-    {
-      language: "eng",
-      regions: [
-        {
-          name: "Brest",
-          description:
-            "Western Polesie is the most striking example of the birth and evolution of polychrome embroidery.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Men Shirt",
-              description: {
-                title: "Men Shirt",
-                subtitle: "Hortaĺ village, Ivacevičy district, Brest region.",
-                paragraph:
-                  "Silk embroidery. A men shirt is a pretty rare find. This one is remarkable by its&apos; specific style. It combines archaic pattern with modern coloristic.",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 8,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Viciebsk",
-          description: "Not represented",
-          exhibition: [],
-        },
-        {
-          name: "Grodno",
-          description:
-            "Despite the rapid departure of the 'village' fashion from the everyday life of the west of the country, the examples are noticeably similar with Brest and Minsk regions.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Womens Blouse",
-              description: {
-                title: "Womens Blouse",
-                subtitle: "Masty district, Hrodna region.",
-                paragraph:
-                  "Made approx 1940-1950s. This example shares common knitted collar style with all post 1940s examples.",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Gomel",
-          description:
-            "The region is rich in bright colors. What’s distinctive about it is that inhabitants used variations of the folk costume almost until the end of the 20th century.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Minsk",
-          description:
-            "The brightest examples of polychrome embroidery were found in the northwestern and southern borders of this area.",
-          exhibition: [
-            {
-              id: 1,
-              name: "The outfit of a teenage girl",
-              description: {
-                title: "The outfit of a teenage girl",
-                subtitle:
-                  "It is difficult to unambiguously identify because of the family history it comes from.",
-                paragraph:
-                  "The family comes from the village of Smalichi, Kopyl district, Minsk region. In the period from the second half of the 1940s to the end of the 1950s, frequent relocations within the Pinsk region complicated attribution. Most likely sewn in the mid-1950s, Teliakhany or Logishyn, Pinsk region (now Brest region). Found in the village of Smalichi.",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Mahiliou",
-          description:
-            "The eastern region has same typical examples of costume embroidery as the western part of the country. A perfect example of how common identity works through the costume.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Artel men's shirt",
-              description: {
-                title: "Artel men's shirt",
-                subtitle: "Approx. 1940-1950s.",
-                paragraph:
-                  "The example of factory manufactured item, found in Minsk. The most known by that time artel was based in Babrujsk so we placed this shirt here as a clear example of traditional influence on fashion.",
-                btn: "",
-              },
-            },
-          ],
-        },
-      ],
-    },
-    {
-      language: "blr",
-      regions: [
-        {
-          name: "Brest",
-          description:
-            "Заходняе палессе - самы яркі прыклад нараджэння і развіцця паліхромнай вышыўкі.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Мужчынская кашуля",
-              description: {
-                title: "Мужчынская кашуля",
-                subtitle: "Вёска Горталь, Івацэвіцкі раён, Брэсцкая вобласць.",
-                paragraph:
-                  "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 8,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Viciebsk",
-          description: "Не прадстаўлена",
-          exhibition: [],
-        },
-        {
-          name: "Grodno",
-          description:
-            "Нягледзячы на хуткі сыход 'вясковай' моды з ужытку захада краіны, знойдзеныя прыклады прыкметна пераклікаюцца з брэсцкім і цэнтральным рэгіёнам.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Жаночая блузка",
-              description: {
-                title: "Жаночая блузка",
-                subtitle: "Мастоўскі раён, Гарадзенская вобласць.",
-                paragraph:
-                  "Зроблена прыкладна ў 1940-1950-х гадах. Гэты прыклад мае такі ж стыль вязаных каўняроў, як і ўсе астатнія ўзоры жаночага адзення, вырабленыя пасля 1940-х гадоў.",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Gomel",
-          description:
-            "Багаты на яркія фарбы край, жыхары якога выкарыстоўвалі варыяцыі народнага строя амаль да канца 20-га стагоддзя.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Minsk",
-          description:
-            "Ярчэй за ўсё з'ява прадстаўлена на паўночна-заходняй і паўднёвай межах гэтай вобласці. ",
-          exhibition: [
-            {
-              id: 1,
-              name: "Строй дзяўчыны-падлетка.",
-              description: {
-                title: "Строй дзяўчыны-падлетка.",
-                subtitle:
-                  "Строй складана адназначна ідэнтыфікаваць з-за гісторыі сям'і, з якой ён паходзіць.",
-                paragraph:
-                  "Сям'я паходзіць з вёскі Смалічы, Копыльскі раён, Мінская вобласць. У перыяд з другой паловы 1940-х гадоў да канца 1950-х частыя пераезды ў межах Пінскай вобласці ўскладняюць атрыбуцыю. Верагодней усяго пашыты ў сярэдзіне 1950-х гадоў, г. Целяханы ці г. Лагішын, Пінскай вобласці (зараз Брэсцкая вобласць). Знайдзены ў вёске Смалічы.",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Назва выставы",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Mahiliou",
-          description:
-            "Усходняя вобласць дэманструе такія ж тыповыя прыклады вышыўкі ў касцюме, як і захад краіны. Гэта ярка паказвае як агульную ідэнтычнасць можна прасачыць праз калектыўнае разуменне адзення.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Арцельная мужчынская кашуля",
-              description: {
-                title: "Арцельная мужчынская кашуля",
-                subtitle: "Прыкладна 1940-1950я гады вытворчасці.",
-                paragraph:
-                  "Прыклад арцельнай вытворчасць, знойдзена ў Мінску. Найбольш вядомая вышывальніцкая арцель знаходзілася ў Бабруйску, таму мы размясцілі гэтую кашулю тут як прыклад уплыву традыцыйнага адзення на модную вытворчасць.",
-                btn: "",
-              },
-            },
-          ],
-        },
-      ],
-    },
-    {
-      language: "ru",
-      regions: [
-        {
-          name: "Brest",
-          description:
-            "Западное Полесье – самый яркий пример рождения и развития полихромной вышивки.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Мужская сорочка",
-              description: {
-                title: "Мужская сорочка",
-                subtitle:
-                  "Деревня Гортоль, Ивацевичский раён, Брестская область.",
-                paragraph:
-                  "Шелковая вышивка цветными нитками. Мужская рубашка сама сама по себе – довольно редкая находка. Эта уникальна еще и своим специфическим стилем: он сочетает в себе архаичный рисунок с современной колористикой.",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 7,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 8,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Viciebsk",
-          description: "Не представлена",
-          exhibition: [],
-        },
-        {
-          name: "Grodno",
-          description:
-            "Несмотря на быстрый уход «деревенской» моды из обихода запада страны, найденные примеры заметно перекликаются с брестским и центральным регионом.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Женская блузка",
-              description: {
-                title: "Женская блузка",
-                subtitle: "Мостовскій район, Гродненская область.",
-                paragraph:
-                  "Примерно 1940-1950-е года. Эта блузка примечательна тем, что имеет тот же стиль вязаных воротников, что и все остальные модели женской одежды народного стиля, изготовленные после 1940-х годов.",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Gomel",
-          description:
-            "Богатый на яркие краски край, жители которого использовали вариации народного костюма почти до конца 20-го века.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 4,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 5,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 6,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Minsk",
-          description:
-            "Ярче всего явление представлено на северо-западной и южной границах этой области.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Костюм девушки-подростка",
-              description: {
-                title: "Костюм девушки-подростка",
-                subtitle:
-                  "Костюм трудно однозначно идентифицировать из-за истории семьи, в которой он был создан.",
-                paragraph:
-                  "Семья родом из деревни Смоличи Копыльского района Минской области. В период со второй половины 1940-х до конца 1950-х годов частые переезды в пределах Пинской области затрудняли атрибуцию. Пошит, скорее всего, в середине 1950-х, Теляханы или Логишин Пинской области (ныне Брестская область). Найден в деревне Смоличи. Использовался для школьных праздников. Сохранились фотографии школьниц из этой местности, носивших такие вышитые блузки повседневно в школу.",
-                btn: "",
-              },
-            },
-            {
-              id: 2,
-              name: "Название выставки",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-            {
-              id: 3,
-              name: "Name of exhibition",
-              description: {
-                title: "",
-                subtitle: "",
-                paragraph: "",
-                btn: "",
-              },
-            },
-          ],
-        },
-        {
-          name: "Mahiliou",
-          description:
-            "Восточная область демонстрирует такие же типичные примеры вышивки в костюме, как и запад страны. Это ярко показывает как общую идентичность можно проследить через коллективное понимание костюма.",
-          exhibition: [
-            {
-              id: 1,
-              name: "Артельная Мужская рубашка",
-              description: {
-                title: "Артельная Мужская рубашка",
-                subtitle: "Примерно 1940-1950я годы создания.",
-                paragraph:
-                  "Пример артельного производства, найдена в Минске. Наиболее известная вышивальщицкая артель находилась в городе Бобруйск, потому мы разместили эту сорочку здесь как пример влияния традиционной одежды на модную индустрию того времени.",
-                btn: "",
-              },
-            },
-          ],
-        },
-      ],
-    },
-  ],
-};
-
-const imageContent = {
-  homepage: {},
-  about: {},
   regions: [
     {
       name: "Brest",
-      exhibitions: [
+      description: [
+        {
+          language: "eng",
+          description:
+            "Western Polesie is the most striking example of the birth and evolution of polychrome embroidery.",
+        },
+        {
+          language: "blr",
+          description:
+            "Заходняе палессе - самы яркі прыклад нараджэння і развіцця паліхромнай вышыўкі.",
+        },
+        {
+          language: "ru",
+          description:
+            "Западное Полесье – самый яркий пример рождения и развития полихромной вышивки.",
+        },
+      ],
+      exhibition: [
         {
           id: 1,
           amountImg: "16",
           image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-1-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Men Shirt",
+              subtitle: "Hortaĺ village, Ivacevičy district, Brest region.",
+              paragraph:
+                "Silk embroidery. A men shirt is a pretty rare find. This one is remarkable by its&apos; specific style. It combines archaic pattern with modern coloristic.",
+            },
+            {
+              language: "blr",
+              title: "Мужчынская кашуля",
+              subtitle: "Вёска Горталь, Івацэвіцкі раён, Брэсцкая вобласць.",
+              paragraph:
+                "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
+            },
+            {
+              language: "ru",
+              title: "Мужская сорочка",
+              subtitle:
+                "Деревня Гортоль, Ивацевичский раён, Брестская область.",
+              paragraph:
+                "Шелковая вышивка цветными нитками. Мужская рубашка сама сама по себе – довольно редкая находка. Эта уникальна еще и своим специфическим стилем: он сочетает в себе архаичный рисунок с современной колористикой.",
+            },
+          ],
         },
         {
           id: 2,
           amountImg: "23",
           image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-2-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Name of exhibition",
+              subtitle: "Bradok village, Drahičyn district, Brest region.",
+              paragraph: "Made during 1920s.",
+            },
+            {
+              language: "blr",
+              title: "Вёска Брадок, Драгічынскі раён, Брэсцкай вобласці.",
+              subtitle: "Пашыта ў сярэдзіне 1920-х гадоў у сям'і Богуш.",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "Деревня Бродок, Дрогичинский район, Брестская область.",
+              subtitle: "Пошита в середине 1920-х годов.",
+              paragraph: "",
+            },
+          ],
         },
         {
           id: 3,
           amountImg: "22",
           image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-3-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Minkavičy village, Kamianiec county, Brest region",
+              subtitle: "Sewn before World War II and was intact.",
+              paragraph:
+                "One-piece shirts (no seam in the middle) were a very festive option, with a great wedding option. According to the hostess, during the war part of the canvas was trimmed because there were more important things than girls ’dresses where the canvas was needed more. But the shirt was sewn again after the war.",
+            },
+            {
+              language: "blr",
+              title: "Вёска Мінкавічы, Камянецкі раён, Брэсцкай вобласці.",
+              subtitle: "Пашыта да другой сусветнай вайны і была цэльнай.",
+              paragraph:
+                "Цэльныя кашулі (без шва пасярэдзіне) былі вельмі святочным варыянтам, з вялікай магчымасцю вясельным. Па словах гаспадыні пад час вайны частка палатна была абрэзана, бо існавалі больш важныя рэчы, чым дзявочыя сукенкі, дзе палатно было патрэбна больш. Але ж кашуля дашыта зноў ужо пасля вайны.",
+            },
+            {
+              language: "ru",
+              title: "д.Минковичи, Каменецкий район, Брестская область.",
+              subtitle: "Сшит перед Второй мировой войной и остался цел.",
+              paragraph:
+                "Цельнокроеные рубашки (без шва посередине) были очень праздничным вариантом, с прекрасным свадебным вариантом. По словам хозяйки, во время войны часть холста обрезали, потому что были вещи поважнее девичьих платьев, где холста нужно было больше. Но рубашку снова сшили после войны.",
+            },
+          ],
         },
-      ],
-    },
-    {
-      name: "Gomel",
-      exhibitions: [
         {
-          id: 1,
-          amountImg: "19",
-          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-1-1.jpg${sas}`,
+          id: 4,
+          amountImg: "28",
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-4-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
         },
         {
-          id: 2,
-          amountImg: "19",
-          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-2-1.jpg${sas}`,
-        },
-        {
-          id: 3,
+          id: 5,
           amountImg: "23",
-          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-3-1.jpg${sas}`,
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-5-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
         },
-      ],
-    },
-    {
-      name: "Grodno",
-      exhibitions: [
         {
-          id: 1,
-          amountImg: "19",
-          image: `https://polyreactsa.blob.core.windows.net/images/grodno/grodno-1-1.jpg${sas}`,
+          id: 6,
+          amountImg: "23",
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-6-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
+        },
+        {
+          id: 7,
+          amountImg: "20",
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-7-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
+        },
+        {
+          id: 8,
+          amountImg: "25",
+          image: `https://polyreactsa.blob.core.windows.net/images/brest/brest-8-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
         },
       ],
     },
     {
       name: "Viciebsk",
-      exhibitions: [],
+      description: [
+        {
+          language: "eng",
+          description: "Not represented",
+        },
+        {
+          language: "blr",
+          description: "Не прадстаўлена",
+        },
+        {
+          language: "ru",
+          description: "Не представлена",
+        },
+      ],
+      exhibition: [],
+    },
+    {
+      name: "Grodno",
+      description: [
+        {
+          language: "eng",
+          description:
+            "Despite the rapid departure of the 'village' fashion from the everyday life of the west of the country, the examples are noticeably similar with Brest and Minsk regions.",
+        },
+        {
+          language: "blr",
+          description:
+            "Нягледзячы на хуткі сыход 'вясковай' моды з ужытку захада краіны, знойдзеныя прыклады прыкметна пераклікаюцца з брэсцкім і цэнтральным рэгіёнам.",
+        },
+        {
+          language: "ru",
+          description:
+            "Несмотря на быстрый уход «деревенской» моды из обихода запада страны, найденные примеры заметно перекликаются с брестским и центральным регионом.",
+        },
+      ],
+
+      exhibition: [
+        {
+          id: 1,
+          amountImg: "20",
+          image: `https://polyreactsa.blob.core.windows.net/images/grodno/grodno-1-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Womens Blouse",
+              subtitle: "Masty district, Hrodna region.",
+              paragraph:
+                "Made approx 1940-1950s. This example shares common knitted collar style with all post 1940s examples.",
+            },
+            {
+              language: "blr",
+              title: "Жаночая блузка",
+              subtitle: "Мастоўскі раён, Гродненская вобласць.",
+              paragraph: "Прыкладна 1940-1950-я гг.",
+            },
+            {
+              language: "ru",
+              title: "Женская блузка",
+              subtitle: "Мостовский район, Гродненская область.",
+              paragraph: "Около 1940-1950 гг.",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "Gomel",
+      description: [
+        {
+          language: "eng",
+          description:
+            "The region is rich in bright colors. What’s distinctive about it is that inhabitants used variations of the folk costume almost until the end of the 20th century.",
+        },
+        {
+          language: "blr",
+          description:
+            "Багаты на яркія фарбы край, жыхары якога выкарыстоўвалі варыяцыі народнага строя амаль да канца 20-га стагоддзя.",
+        },
+        {
+          language: "ru",
+          description:
+            "Богатый на яркие краски край, жители которого использовали вариации народного костюма почти до конца 20-го века.",
+        },
+      ],
+      exhibition: [
+        {
+          id: 1,
+          amountImg: "19",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-1-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Bride's dress",
+              subtitle: "sewn in a year of 1920",
+              paragraph:
+                "from the village of Zarubanaje, Lelčycy district, Homieĺ region.",
+            },
+            {
+              language: "blr",
+              title: "Cтрой нявесты",
+              subtitle: "Пашыты ў 1920-м годзе",
+              paragraph:
+                "З вёскі Зарубанае, Лельчыцкага раёна Гомельскай вобласці.",
+            },
+            {
+              language: "ru",
+              title: "Костюм невесты",
+              subtitle: "Пошит в 1920-м году",
+              paragraph:
+                "Деревня Зарубаное, Лельчицкого района, Гомельской области.",
+            },
+          ],
+        },
+        {
+          id: 2,
+          amountImg: "19",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-2-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Bride mother's dress",
+              subtitle: "sewn in a year of 1920",
+              paragraph:
+                "from the village of Zarubanaje, Lelčycy district, Homieĺ region.",
+            },
+            {
+              language: "blr",
+              title: "Cтрой маці нявесты",
+              subtitle: "Пашыты ў 1920-м годзе",
+              paragraph:
+                "З вёскі Зарубанае, Лельчыцкага раёна Гомельскай вобласці.",
+            },
+            {
+              language: "ru",
+              title: "Костюм матери невесты",
+              subtitle: "Пошит в 1920-м году",
+              paragraph:
+                "Деревня Зарубаное, Лельчицкого района, Гомельской области.",
+            },
+          ],
+        },
+        {
+          id: 3,
+          amountImg: "23",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-3-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Lojeŭ, mid-twentieth century.",
+              subtitle: "This is a typical example of the Soviet period. ",
+              paragraph:
+                "Similar images were first distributed by guilds and then actively printed through popular magazines. The Bobruisk artel 'March 8' through its website tells about its work on collecting ancient embroidery images. Then processed drawings from towels, tablecloths and other embroidered products moved to costume details with colored additions.",
+            },
+            {
+              language: "blr",
+              title: "Лоеў, сярэдзіна ХХ стагоддзя.",
+              subtitle: "Гэта тыповы прыклад савецкага перыяду.",
+              paragraph:
+                "Падобныя малюнкі былі распаўсюджаны спачатку арцелямі, а затым актыўна друкаваліся праз часопісы. Аб сваёй працы па збору старадаўніх малюнкаў вышывак цікава распавядае бабруйская арцель '8 Сакавіка' на сваім сайце. Так на адзенні пачалі з'яўляцца апрацаваныя малюнкі яшчэ і з рушнікоў, абрусаў і іншых вышытых вырабаў, да якіх дадаўся колер.",
+            },
+            {
+              language: "ru",
+              title: "Лоев, середина ХХ века.",
+              subtitle: "Это типичный пример работы советского периода.",
+              paragraph:
+                "Подобные изображения сначала собирались артелями, а затем активно печатались через журналы. Бобруйская артель «8 марта» рассказывает о своей работе по сбору старинных изображений вышивок на своем сайте. Так на одежде стали появляться и обработанные рисунки с ручников, скатертей и других вышитых изделий, в которые добавилось больше цвета.",
+            },
+          ],
+        },
+        {
+          id: 4,
+          amountImg: "26",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-4-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
+        },
+        {
+          id: 5,
+          amountImg: "25",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-5-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
+        },
+        {
+          id: 6,
+          amountImg: "19",
+          image: `https://polyreactsa.blob.core.windows.net/images/gomel/gomel-6-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
+        },
+      ],
     },
     {
       name: "Minsk",
-      exhibitions: [
+      description: [
+        {
+          language: "eng",
+          description:
+            "The brightest examples of polychrome embroidery were found in the northwestern and southern borders of this area.",
+        },
+        {
+          language: "blr",
+          description:
+            "Ярчэй за ўсё з'ява прадстаўлена на паўночна-заходняй і паўднёвай межах гэтай вобласці.",
+        },
+        {
+          language: "ru",
+          description:
+            "Ярче всего явление представлено на северо-западной и южной границах этой области.",
+        },
+      ],
+      exhibition: [
         {
           id: 1,
           amountImg: "22",
           image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-1-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "The outfit of a teenage girl",
+              subtitle:
+                "It is difficult to unambiguously identify because of the family history it comes from.",
+              paragraph:
+                "The family comes from the village of Smalichi, Kopyl district, Minsk region. In the period from the second half of the 1940s to the end of the 1950s, frequent relocations within the Pinsk region complicated attribution. Most likely sewn in the mid-1950s, Teliakhany or Logishyn, Pinsk region (now Brest region). Found in the village of Smalichi.",
+            },
+            {
+              language: "blr",
+              title: "Строй дзяўчыны-падлетка.",
+              subtitle:
+                "Строй складана адназначна ідэнтыфікаваць з-за гісторыі сям'і, з якой ён паходзіць.",
+              paragraph:
+                "Сям'я паходзіць з вёскі Смалічы, Копыльскі раён, Мінская вобласць. У перыяд з другой паловы 1940-х гадоў да канца 1950-х частыя пераезды ў межах Пінскай вобласці ўскладняюць атрыбуцыю. Верагодней усяго пашыты ў сярэдзіне 1950-х гадоў, г. Целяханы ці г. Лагішын, Пінскай вобласці (зараз Брэсцкая вобласць). Знайдзены ў вёске Смалічы.",
+            },
+            {
+              language: "ru",
+              title: "Костюм девушки-подростка",
+              subtitle:
+                "Костюм трудно однозначно идентифицировать из-за истории семьи, в которой он был создан.",
+              paragraph:
+                "Семья родом из деревни Смоличи Копыльского района Минской области. В период со второй половины 1940-х до конца 1950-х годов частые переезды в пределах Пинской области затрудняли атрибуцию. Пошит, скорее всего, в середине 1950-х, Теляханы или Логишин Пинской области (ныне Брестская область). Найден в деревне Смоличи. Использовался для школьных праздников. Сохранились фотографии школьниц из этой местности, носивших такие вышитые блузки повседневно в школу.",
+            },
+          ],
+        },
+        {
+          id: 2,
+          amountImg: "24",
+          image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-2-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
+        },
+        {
+          id: 3,
+          amountImg: "24",
+          image: `https://polyreactsa.blob.core.windows.net/images/minsk/minsk-3-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "blr",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+            {
+              language: "ru",
+              title: "",
+              subtitle: "",
+              paragraph: "",
+            },
+          ],
         },
       ],
     },
     {
       name: "Mahiliou",
-      exhibitions: [
+      description: [
+        {
+          language: "eng",
+          description:
+            "The eastern region has same typical examples of costume embroidery as the western part of the country. A perfect example of how common identity works through the costume.",
+        },
+        {
+          language: "blr",
+          description:
+            "Усходняя вобласць дэманструе такія ж тыповыя прыклады вышыўкі ў касцюме, як і захад краіны. Гэта ярка паказвае як агульную ідэнтычнасць можна прасачыць праз калектыўнае разуменне адзення.",
+        },
+        {
+          language: "ru",
+          description:
+            "Восточная область демонстрирует такие же типичные примеры вышивки в костюме, как и запад страны. Это ярко показывает как общую идентичность можно проследить через коллективное понимание костюма.",
+        },
+      ],
+      exhibition: [
         {
           id: 1,
           amountImg: "25",
           image: `https://polyreactsa.blob.core.windows.net/images/mahiliou/mahiliou-1-1.jpg${sas}`,
+          content: [
+            {
+              language: "eng",
+              title: "Artel men's shirt",
+              subtitle: "Approx. 1940-1950s.",
+              paragraph:
+                "The example of factory manufactured item, found in Minsk. The most known by that time artel was based in Babrujsk so we placed this shirt here as a clear example of traditional influence on fashion.",
+            },
+            {
+              language: "blr",
+              title: "Арцельная мужчынская кашуля",
+              subtitle: "Прыкладна 1940-1950я гады вытворчасці.",
+              paragraph:
+                "Прыклад арцельнай вытворчасць, знойдзена ў Мінску. Найбольш вядомая вышывальніцкая арцель знаходзілася ў Бабруйску, таму мы размясцілі гэтую кашулю тут як прыклад уплыву традыцыйнага адзення на модную вытворчасць.",
+            },
+            {
+              language: "ru",
+              title: "Артельная Мужская рубашка",
+              subtitle: "Примерно 1940-1950я годы создания.",
+              paragraph:
+                "Пример артельного производства, найдена в Минске. Наиболее известная вышивальщицкая артель находилась в городе Бобруйск, потому мы разместили эту сорочку здесь как пример влияния традиционной одежды на модную индустрию того времени.",
+            },
+          ],
         },
       ],
     },
@@ -892,8 +720,7 @@ const imageContent = {
 
 const initialStoreData = {
   state: { ...state },
-  textContent: { ...textContent },
-  imageContent: { ...imageContent },
+  content: { ...content },
 };
 
 export default initialStoreData;

@@ -6,25 +6,19 @@ import styles from "./Map.module.scss";
 
 const Map = (props) => {
   const currentRegion = props.currentRegion;
+  const currentLanguage = props.currentLanguage;
   const [curExhImg, setCurExhImg] = useState(
     "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
   );
 
-  const language = props.textContent[0].language;
-  const region = props.textContent[0].regions.filter(
-    (regions) => regions.name === currentRegion
-  )[0];
+  const region = props.content[0];
 
   const handleClick = function (e) {
     props.changeRegion(e.target.id);
   };
 
   const handleOver = function (e) {
-    const curImgCont = props.imageContent.regions.filter(
-      (region) => region.name === props.currentRegion
-    )[0];
-
-    const curExh = curImgCont.exhibitions.filter(
+    const curExh = region.exhibition.filter(
       (exhibition) => exhibition.id === +e.target.id
     )[0];
 
@@ -39,19 +33,21 @@ const Map = (props) => {
     );
   };
 
-  // const handleClick = function () {};
-
   return (
     <div className={styles.container}>
       <div className={styles.description}>
         <p
           style={{
             fontFamily: `${
-              language === "eng" ? "Microsoft JhengHei" : "calibri"
+              currentLanguage === "eng" ? "Microsoft JhengHei" : "calibri"
             }`,
           }}
         >
-          {region.description}
+          {
+            props.content[0].description.filter(
+              (cont) => cont.language === currentLanguage
+            )[0].description
+          }
         </p>
       </div>
       <div className={styles.map}>
@@ -139,13 +135,20 @@ const Map = (props) => {
               <li
                 style={{
                   fontFamily: `${
-                    language === "eng" ? "NewsGoth BT Italic" : "calibrii"
+                    currentLanguage === "eng"
+                      ? "NewsGoth BT Italic"
+                      : "calibrii"
                   }`,
                 }}
                 id={item.id}
                 className={styles.activeLink}
               >
-                {item.name}.{currentRegion} #{item.id}
+                {
+                  item.content.filter(
+                    (cont) => cont.language === currentLanguage
+                  )[0].title
+                }
+                .{currentRegion} #{item.id}
               </li>
             </NavLink>
           ))}
@@ -156,11 +159,10 @@ const Map = (props) => {
 };
 
 Map.propTypes = {
+  currentLanguage: PropTypes.string.isRequired,
   currentRegion: PropTypes.string.isRequired,
-  textContent: PropTypes.array.isRequired,
-  imageContent: PropTypes.object.isRequired,
+  content: PropTypes.array.isRequired,
   changeRegion: PropTypes.func.isRequired,
-  activeExhibition: PropTypes.number.isRequired,
   changeExhibition: PropTypes.func.isRequired,
 };
 
