@@ -112,21 +112,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Men Shirt",
+              title: "Ivacevičy. Men's Shirt",
               subtitle: "Hortaĺ village, Ivacevičy district, Brest region.",
               paragraph:
                 "Silk embroidery. A men shirt is a pretty rare find. This one is remarkable by its&apos; specific style. It combines archaic pattern with modern coloristic.",
             },
             {
               language: "blr",
-              title: "Мужчынская кашуля",
+              title: "Івацэвічы. Мужчынская кашуля",
               subtitle: "Вёска Горталь, Івацэвіцкі раён, Брэсцкая вобласць.",
               paragraph:
                 "Шаўковая вышыўка каляровымі ніткамі. Мужчынская кашуля сама па сабе - даволі рэдкая знаходка. Гэтая унікальная яшчэ і спецыфічным стылем: у ёй спалучаны архаічны ўзор з сучаснай каларыстыкай.",
             },
             {
               language: "ru",
-              title: "Мужская сорочка",
+              title: "Ивацевичи. Мужская сорочка",
               subtitle:
                 "Деревня Гортоль, Ивацевичский раён, Брестская область.",
               paragraph:
@@ -141,21 +141,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Name of exhibition",
+              title: "Drahičyn. Chemise",
               subtitle: "Bradok village, Drahičyn district, Brest region.",
               paragraph: "Made during 1920s.",
             },
             {
               language: "blr",
-              title: "Вёска Брадок, Драгічынскі раён, Брэсцкай вобласці.",
-              subtitle: "Пашыта ў сярэдзіне 1920-х гадоў у сям'і Богуш.",
-              paragraph: "",
+              title: "Драгічын. Жаночая кашуля",
+              subtitle: "Вёска Брадок, Драгічынскі раён, Брэсцкай вобласці.",
+              paragraph: "Пашыта ў сярэдзіне 1920-х гадоў.",
             },
             {
               language: "ru",
-              title: "Деревня Бродок, Дрогичинский район, Брестская область.",
-              subtitle: "Пошита в середине 1920-х годов.",
-              paragraph: "",
+              title: "Дрогичин. Женская сорочка",
+              subtitle: "Деревня Бродок, Дрогичинский район, Брестская область.",
+              paragraph: "Пошита в середине 1920-х годов.",
             },
           ],
         },
@@ -166,24 +166,24 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Minkavičy village, Kamianiec county, Brest region",
-              subtitle: "Sewn before World War II and was intact.",
+              title: "Kamianiec. Chemise",
+              subtitle: "Minkavičy village, Kamianiec county, Brest region",
               paragraph:
-                "One-piece shirts (no seam in the middle) were a very festive option, with a great wedding option. According to the hostess, during the war part of the canvas was trimmed because there were more important things than girls ’dresses where the canvas was needed more. But the shirt was sewn again after the war.",
+                "Sewn before World War II and was whole-cut. One-piece shirts (no seam in the middle) were a very festive option, mostly for wedding. According to the hostess, during the war part of the canvas was trimmed because there were more important things than girlish dresses. But the shirt was re-sewn again after the war.",
             },
             {
               language: "blr",
-              title: "Вёска Мінкавічы, Камянецкі раён, Брэсцкай вобласці.",
-              subtitle: "Пашыта да другой сусветнай вайны і была цэльнай.",
+              title: "Камянец. Жаночая кашуля",
+              subtitle: "Вёска Мінкавічы, Камянецкі раён, Брэсцкай вобласці.",
               paragraph:
-                "Цэльныя кашулі (без шва пасярэдзіне) былі вельмі святочным варыянтам, з вялікай магчымасцю вясельным. Па словах гаспадыні пад час вайны частка палатна была абрэзана, бо існавалі больш важныя рэчы, чым дзявочыя сукенкі, дзе палатно было патрэбна больш. Але ж кашуля дашыта зноў ужо пасля вайны.",
+                "Пашыта да другой сусветнай вайны і была цэльнай. Цэльныя кашулі (без шва па паясу) былі вельмі святочным варыянтам, з вялікай магчымасцю вясельным. Па словах гаспадыні пад час вайны частка палатна была абрэзана, бо існавалі больш важныя рэчы, чым дзявочыя сукенкі, дзе палатно было патрэбна больш. Але ж кашуля дашыта зноў ужо пасля вайны.",
             },
             {
               language: "ru",
-              title: "д.Минковичи, Каменецкий район, Брестская область.",
-              subtitle: "Сшит перед Второй мировой войной и остался цел.",
+              title: "Каменец. Женская сорочка",
+              subtitle: "деревня Минковичи, Каменецкий район, Брестская область.",
               paragraph:
-                "Цельнокроеные рубашки (без шва посередине) были очень праздничным вариантом, с прекрасным свадебным вариантом. По словам хозяйки, во время войны часть холста обрезали, потому что были вещи поважнее девичьих платьев, где холста нужно было больше. Но рубашку снова сшили после войны.",
+                "Сшита перед Второй мировой войной и была цельнокройной. Цельнокроеные рубашки (без шва по поясу) были очень праздничным, с большой вероятностью свадебным вариантом. По словам хозяйки, во время войны часть ткани обрезали, потому что были вещи поважнее девичьих платьев, где пригодился бы лен. Но сорочку вновь сшили после войны.",
             },
           ],
         },
@@ -194,19 +194,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Brest. Womens Blouse",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Брэст. Жаночая блуза",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Брест. Женская блузка",
               subtitle: "",
               paragraph: "",
             },
@@ -219,21 +219,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Stolin. Chemise with Apron",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Столін. Жаночая кашуля з фартухом",
               subtitle: "",
-              paragraph: "",
+              paragraph: "Важна адзначыць, што такім чынам кашулю з фартухом насіць не маглі. Павінна абавязкова прысутнічаць паясное адзенне накшталт спадніцы. Аднак мы вырашылі не разлучаць рэчы, знойдзеныя ў адным населеным пункце ці сям'і. Столінскі раён - гэта сэрца Палесся, якое ўвабрала ў сябе і заходнія і ўсходнія павевы. Тут мы бачым адносна стары малюнак вышыўкі, блізкі да архаікі, але ўжо дапоўнены новымі колерамі.",
             },
             {
               language: "ru",
-              title: "",
+              title: "Столин. Женская сорочка с фартуком",
               subtitle: "",
-              paragraph: "",
+              paragraph: "Важно отметить, что таким образом сорочку с фартуком носить не могли. Должна обязательно присутствовать поясная одежда вроде юбки. Однако мы решили не разлучать вещи, найденные в одном населенном пункте или семье. Столинский район - это сердце Полесья, впитавшее в себя и западные и восточные веяния. Здесь мы видим относительно старый рисунок вышивки, близкий к архаике, но уже разбавленный новыми цветами.",
             },
           ],
         },
@@ -244,19 +244,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Ivanava. Girl's Vest",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Іванава. Дзявочы гарсэт",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Иваново. Девичий горсет (жилет)",
               subtitle: "",
               paragraph: "",
             },
@@ -269,19 +269,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Malaryta. Andarak (woolen skirt)",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Маларыта. Андарак",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Молорита. Андарак (шерстяная юбка)",
               subtitle: "",
               paragraph: "",
             },
@@ -294,19 +294,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Pružany. Womens Blouse",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Пружаны. Жаночая блуза",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Пружаны. Жаночая блузка",
               subtitle: "",
               paragraph: "",
             },
@@ -360,22 +360,22 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Womens Blouse",
+              title: "Masty. Womens Blouse",
               subtitle: "Masty district, Hrodna region.",
               paragraph:
                 "Made approx 1940-1950s. This example shares common knitted collar style with all post 1940s examples.",
             },
             {
               language: "blr",
-              title: "Жаночая блузка",
+              title: "Масты. Жаночая блуза",
               subtitle: "Мастоўскі раён, Гродненская вобласць.",
-              paragraph: "Прыкладна 1940-1950-я гг.",
+              paragraph: "Прыкладна 1940-1950-я гг, пашыта з віскозы. Мае такі ж вязаны каўнер, як і іншыя прыклады жаночага адзення 1940-х гадоў.",
             },
             {
               language: "ru",
-              title: "Женская блузка",
+              title: "Мосты. Женская блузка",
               subtitle: "Мостовский район, Гродненская область.",
-              paragraph: "Около 1940-1950 гг.",
+              paragraph: "Около 1940-1950 гг, пошита из вискозы. Имеет такой же вязаный воротник, как и другие образцы женской одежды 1940-х годов.",
             },
           ],
         },
@@ -408,21 +408,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Bride's dress",
-              subtitle: "sewn in a year of 1920",
+              title: "Lelčycy. Bride Costume",
+              subtitle: "Sewn in a year of 1920",
               paragraph:
-                "from the village of Zarubanaje, Lelčycy district, Homieĺ region.",
+                "Came from the village of Zarubanaje, Lelčycy district, Homieĺ region.",
             },
             {
               language: "blr",
-              title: "Cтрой нявесты",
+              title: "Лельчыцы. Cтрой нявесты",
               subtitle: "Пашыты ў 1920-м годзе",
               paragraph:
                 "З вёскі Зарубанае, Лельчыцкага раёна Гомельскай вобласці.",
             },
             {
               language: "ru",
-              title: "Костюм невесты",
+              title: "Лельчицы. остюм невесты",
               subtitle: "Пошит в 1920-м году",
               paragraph:
                 "Деревня Зарубаное, Лельчицкого района, Гомельской области.",
@@ -436,21 +436,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Bride mother's dress",
-              subtitle: "sewn in a year of 1920",
+              title: "Lelčycy. Mother of the Bride Costume",
+              subtitle: "Sewn in a year of 1920",
               paragraph:
-                "from the village of Zarubanaje, Lelčycy district, Homieĺ region.",
+                "Came from the village of Zarubanaje, Lelčycy district, Homieĺ region.",
             },
             {
               language: "blr",
-              title: "Cтрой маці нявесты",
+              title: "Лельчыцы. Cтрой маці нявесты",
               subtitle: "Пашыты ў 1920-м годзе",
               paragraph:
                 "З вёскі Зарубанае, Лельчыцкага раёна Гомельскай вобласці.",
             },
             {
               language: "ru",
-              title: "Костюм матери невесты",
+              title: "Лельчицы. Костюм матери невесты",
               subtitle: "Пошит в 1920-м году",
               paragraph:
                 "Деревня Зарубаное, Лельчицкого района, Гомельской области.",
@@ -464,22 +464,22 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Lojeŭ, mid-twentieth century.",
-              subtitle: "This is a typical example of the Soviet period. ",
+              title: "Lojeŭ. Girl's Blouse",
+              subtitle: "Mid-twentieth century. This is a typical example of the Soviet period. ",
               paragraph:
                 "Similar images were first distributed by guilds and then actively printed through popular magazines. The Bobruisk artel 'March 8' through its website tells about its work on collecting ancient embroidery images. Then processed drawings from towels, tablecloths and other embroidered products moved to costume details with colored additions.",
             },
             {
               language: "blr",
-              title: "Лоеў, сярэдзіна ХХ стагоддзя.",
-              subtitle: "Гэта тыповы прыклад савецкага перыяду.",
+              title: "Лоеў. Дзявочая блуза",
+              subtitle: "Сярэдзіна ХХ стагоддзя. Гэта тыповы прыклад савецкага перыяду.",
               paragraph:
                 "Падобныя малюнкі былі распаўсюджаны спачатку арцелямі, а затым актыўна друкаваліся праз часопісы. Аб сваёй працы па збору старадаўніх малюнкаў вышывак цікава распавядае бабруйская арцель '8 Сакавіка' на сваім сайце. Так на адзенні пачалі з'яўляцца апрацаваныя малюнкі яшчэ і з рушнікоў, абрусаў і іншых вышытых вырабаў, да якіх дадаўся колер.",
             },
             {
               language: "ru",
-              title: "Лоев, середина ХХ века.",
-              subtitle: "Это типичный пример работы советского периода.",
+              title: "Лоев. Девичья блузка",
+              subtitle: "Середина ХХ века. Это типичный пример работы советского периода.",
               paragraph:
                 "Подобные изображения сначала собирались артелями, а затем активно печатались через журналы. Бобруйская артель «8 марта» рассказывает о своей работе по сбору старинных изображений вышивок на своем сайте. Так на одежде стали появляться и обработанные рисунки с ручников, скатертей и других вышитых изделий, в которые добавилось больше цвета.",
             },
@@ -492,21 +492,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
-              subtitle: "",
-              paragraph: "",
+              title: "Chojniki. Chemise",
+              subtitle: "Middle of 20th century. Made out of manufactured cotton fabric.",
+              paragraph: "This dress has a colored decor only on the cuffs (embroidered with green and red threads). The embroidery on the sleeves was black and red. Often cotton black threads of the Soviet period had poor color quality. In this shirt they faded to white.",
             },
             {
               language: "blr",
-              title: "",
-              subtitle: "",
-              paragraph: "",
+              title: "Хойнікі. Жаночая кашуля",
+              subtitle: "Сярэдзіна ХХ стагоддзя. Пашыта з перкалевай крамной тканіны.",
+              paragraph: "Мае каляровы дэкор толькі на каўнярцах (вышыўка зялёнымі і чырвонымі ніткамі). Вышыўака на рукавах была чорна-чырвонай. Часцяком баваўняныя чорныя ніткі савецкага перыяду мелі дрэнную ўстойлівасць колеру. У гэтай кашулі яны выцвілі дабяла.",
             },
             {
               language: "ru",
-              title: "",
-              subtitle: "",
-              paragraph: "",
+              title: "Хойники. Женская сорочка",
+              subtitle: "Середина ХХ-го века. Пошита из магазинной хлопковой ткани.",
+              paragraph: "Имеет цветной декор только на манжетах (вышивка зелеными и красными нитками). Вышивка на рукавах была черно-красной. Зачастую хлопковые черные нитки советского периода имели плохую стойкость цвета. В этой сорочке они выцвели добела.",
             },
           ],
         },
@@ -517,19 +517,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Niehliubka. Womens Blouse",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Неглюбка. Жаночая блуза",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Неглюбка. Женская блузка",
               subtitle: "",
               paragraph: "",
             },
@@ -542,19 +542,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Niehliubka. Boy Shirt",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Неглюбка. Кашуля юнака",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Неглюбка. Рубашка юноши",
               subtitle: "",
               paragraph: "",
             },
@@ -589,7 +589,7 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "The outfit of a teenage girl",
+              title: "Kapyĺ. Girl Costume",
               subtitle:
                 "It is difficult to unambiguously identify because of the family history it comes from.",
               paragraph:
@@ -597,7 +597,7 @@ const content = {
             },
             {
               language: "blr",
-              title: "Строй дзяўчыны-падлетка.",
+              title: "Капыль. Дзявочы строй.",
               subtitle:
                 "Строй складана адназначна ідэнтыфікаваць з-за гісторыі сям'і, з якой ён паходзіць.",
               paragraph:
@@ -605,7 +605,7 @@ const content = {
             },
             {
               language: "ru",
-              title: "Костюм девушки-подростка",
+              title: "Копыль. Девичий костюм",
               subtitle:
                 "Костюм трудно однозначно идентифицировать из-за истории семьи, в которой он был создан.",
               paragraph:
@@ -620,19 +620,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Kapyĺ. Women Costume",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Капыль. Жаночы строй",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Копыль. Женский костюм",
               subtitle: "",
               paragraph: "",
             },
@@ -645,19 +645,19 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "",
+              title: "Vilejka. Girl's Blouse",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "blr",
-              title: "",
+              title: "Вілейка. Дзявочая блуза",
               subtitle: "",
               paragraph: "",
             },
             {
               language: "ru",
-              title: "",
+              title: "Вилейка. Девичья блузка",
               subtitle: "",
               paragraph: "",
             },
@@ -692,21 +692,21 @@ const content = {
           content: [
             {
               language: "eng",
-              title: "Artel men's shirt",
+              title: "Artel Production. Men's Shirt",
               subtitle: "Approx. 1940-1950s.",
               paragraph:
                 "The example of factory manufactured item, found in Minsk. The most known by that time artel was based in Babrujsk so we placed this shirt here as a clear example of traditional influence on fashion.",
             },
             {
               language: "blr",
-              title: "Арцельная мужчынская кашуля",
+              title: "Арцельная вытворчасць. Мужчынская кашуля",
               subtitle: "Прыкладна 1940-1950я гады вытворчасці.",
               paragraph:
                 "Прыклад арцельнай вытворчасць, знойдзена ў Мінску. Найбольш вядомая вышывальніцкая арцель знаходзілася ў Бабруйску, таму мы размясцілі гэтую кашулю тут як прыклад уплыву традыцыйнага адзення на модную вытворчасць.",
             },
             {
               language: "ru",
-              title: "Артельная Мужская рубашка",
+              title: "Артельное производство. Мужская рубашка",
               subtitle: "Примерно 1940-1950я годы создания.",
               paragraph:
                 "Пример артельного производства, найдена в Минске. Наиболее известная вышивальщицкая артель находилась в городе Бобруйск, потому мы разместили эту сорочку здесь как пример влияния традиционной одежды на модную индустрию того времени.",
