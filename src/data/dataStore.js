@@ -1,5 +1,5 @@
-const sas = #{sas.exhibition}#;
-const contentSas = #{sas.content}#;
+const sas = "#{sas.exhibition}#";
+const contentSas = "#{sas.content}#";
 
 const state = {
   currentLanguage: "eng",
