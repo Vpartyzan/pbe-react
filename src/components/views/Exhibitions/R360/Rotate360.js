@@ -60,7 +60,7 @@ class Rotate360 extends Component {
 
     for (let i = 1; i <= 20; i++) {
       let image = new Image();
-      image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg?sp=r&st=2022-02-15T17:13:20Z&se=2022-03-30T01:13:20Z&spr=https&sv=2020-08-04&sr=c&sig=CveLxLSKlLTrYsezdHHzNYpySvlub42nM%2FF7NX8y3Pw%3D`;
+      image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg#{sas.exhibition}#`;
       image.alt = i;
       image.className = "rotate-360-img";
 
@@ -121,7 +121,7 @@ class Rotate360 extends Component {
     let src =
       imgArr.length > 0
         ? imgArr[imageIndex - 1].src
-        : `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-1.jpg?sp=r&st=2022-02-15T17:13:20Z&se=2022-03-30T01:13:20Z&spr=https&sv=2020-08-04&sr=c&sig=CveLxLSKlLTrYsezdHHzNYpySvlub42nM%2FF7NX8y3Pw%3D`;
+        : `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-1.jpg#{sas.exhibition}#`;
 
     return (
       <div className="rotate360">

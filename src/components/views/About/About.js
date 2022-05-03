@@ -53,8 +53,8 @@ const About = (props) => {
         {/* <img src="https://i.postimg.cc/dtrFDW8n/pexels-rodnae-productions-8474810.jpg" /> */}
         <iframe
           src="https://www.youtube-nocookie.com/embed/JagemrPoeGU?vq=hd1080&autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&fs=0&controls=0&disablekb=1"
-          width="800"
-          height="450"
+          width="80%"
+          height="45%"
           frameBorder="0"
         ></iframe>
       </div>

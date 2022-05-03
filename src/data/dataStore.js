@@ -1,7 +1,5 @@
-const sas =
-  "?sp=r&st=2022-02-15T17:13:20Z&se=2022-03-30T01:13:20Z&spr=https&sv=2020-08-04&sr=c&sig=CveLxLSKlLTrYsezdHHzNYpySvlub42nM%2FF7NX8y3Pw%3D";
-const contentSas =
-  "?sv=2020-10-02&st=2022-02-18T17%3A57%3A02Z&se=2027-01-31T17%3A57%3A00Z&sr=c&sp=r&sig=ae3fsZvxWWXaE7mTUmdiD%2Fv7p36XR6asc1GTWGs4Yyc%3D";
+const sas = "#{sas.exhibition}#";
+const contentSas = "#{sas.content}#";
 
 const state = {
   currentLanguage: "eng",
