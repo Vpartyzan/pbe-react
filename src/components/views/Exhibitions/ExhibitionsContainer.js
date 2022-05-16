@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import Exhibitions from "./Exhibitions";
 
-import { changeExhibition } from "../../../redux/stateRedux";
+import { changeExhibition, changeAmountImage } from "../../../redux/stateRedux";
 
 const getExhibitions = ({ regions }, currentRegion) =>
   regions.filter((region) => region.name === currentRegion);
@@ -15,6 +15,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   changeExhibition: (ExhibitionId) => dispatch(changeExhibition(ExhibitionId)),
+  changeAmountImage: (amountImage) => dispatch(changeAmountImage(amountImage)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Exhibitions);

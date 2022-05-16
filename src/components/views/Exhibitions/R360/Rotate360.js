@@ -31,11 +31,11 @@ class Rotate360 extends Component {
   componentDidMount = () => {
     document.addEventListener("mousemove", this.handleMouseMove, false);
     document.addEventListener("mouseup", this.handleMouseUp, false);
+    console.log("IMAGE:", this.props.amountImg);
     this.preloadImages();
   };
 
   componentDidUpdate = (prevProps, prevState) => {
-    // console.log(prevState);
     if (prevProps.activeExhibition !== this.props.activeExhibition) {
       this.setState((state) => {
         return {
@@ -54,18 +54,21 @@ class Rotate360 extends Component {
   };
 
   preloadImages = () => {
-    const { currentRegion, activeExhibition } = this.props;
-    // const { numImages } = this.state;
+    const { currentRegion, activeExhibition, amountImg } = this.props;
     const arr = [];
+    const links = [];
 
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= amountImg; i++) {
       let image = new Image();
+
       image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg#{sas.exhibition}#`;
       image.alt = i;
       image.className = "rotate-360-img";
 
       arr.push(image);
     }
+
+    console.log("ARR:", arr);
 
     this.setState({
       imgArr: arr,
@@ -87,16 +90,17 @@ class Rotate360 extends Component {
 
   updateImageIndex = (currentPosition) => {
     const { dragStart, imageIndex, dragStartIndex } = this.state;
-    const numImages = 20;
-    const pixelsPerImage = pixelsPerDegree * (360 / numImages);
+    const { amountImg } = this.props;
+
+    const pixelsPerImage = pixelsPerDegree * (360 / amountImg);
     // pixels moved
     let dx = (currentPosition - dragStart) / pixelsPerImage;
-    let index = Math.floor(dx) % numImages;
+    let index = Math.floor(dx) % amountImg;
 
     if (index < 0) {
-      index = numImages + index - 1;
+      index = amountImg + index - 1;
     }
-    index = (index + dragStartIndex) % numImages;
+    index = (index + dragStartIndex) % amountImg;
     if (index === 0) index = 1;
     if (index !== imageIndex) {
       this.setState({ imageIndex: index });
@@ -116,7 +120,6 @@ class Rotate360 extends Component {
   renderImage = () => {
     const { imageIndex, imgArr } = this.state;
     const { currentRegion, activeExhibition } = this.props;
-    // console.log(this.state.lastImgArr);
 
     let src =
       imgArr.length > 0

@@ -30,8 +30,6 @@ const Exhibitions = (props) => {
     (exhibition) => exhibition.id === props.activeExhibition
   )[0];
 
-  // console.log("Ex", activeExhTextCont);
-
   const handleUp = function () {
     let height = 115;
     let position = curPosition + height;
@@ -55,9 +53,7 @@ const Exhibitions = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.curfoto}>
-        <Rotate360
-          amountImg={activeExhImgCont ? +activeExhImgCont.amountImg : ""}
-        />
+        <Rotate360 />
       </div>
       <div className={styles.allfoto}>
         <div className={styles.carusel}>
@@ -80,7 +76,10 @@ const Exhibitions = (props) => {
                       item.id === props.activeExhibition ? styles.active : ""
                     }
                     src={item.image}
-                    onClick={() => props.changeExhibition(item.id)}
+                    onClick={() => {
+                      props.changeExhibition(item.id);
+                      props.changeAmountImage(item.amountImg);
+                    }}
                   />
                 </li>
               ))}
@@ -112,8 +111,8 @@ Exhibitions.propTypes = {
   currentLanguage: PropTypes.string.isRequired,
   currentRegion: PropTypes.string.isRequired,
   content: PropTypes.array.isRequired,
-  imageContent: PropTypes.object.isRequired,
   changeExhibition: PropTypes.func.isRequired,
+  changeAmountImage: PropTypes.func.isRequired,
   activeExhibition: PropTypes.number.isRequired,
 };
 

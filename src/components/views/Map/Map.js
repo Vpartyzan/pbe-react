@@ -130,7 +130,10 @@ const Map = (props) => {
               key={item.id}
               onMouseOver={handleOver}
               onMouseOut={handleOut}
-              onClick={() => props.changeExhibition(item.id)}
+              onClick={() => {
+                props.changeExhibition(item.id);
+                props.changeAmountImage(item.amountImg);
+              }}
             >
               <li
                 style={{
@@ -164,6 +167,7 @@ Map.propTypes = {
   content: PropTypes.array.isRequired,
   changeRegion: PropTypes.func.isRequired,
   changeExhibition: PropTypes.func.isRequired,
+  changeAmountImage: PropTypes.func.isRequired,
 };
 
 export default Map;
