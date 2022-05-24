@@ -39,17 +39,23 @@ const Header = (props) => {
               </li>
             </ul>
           </li>
+
           <li>
-            <NavLink to="/">{content.home}</NavLink>
+            <ul>
+              <li>
+                <NavLink to="/">{content.home}</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">{content.about}</NavLink>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/skarodzitsa/">
+                  {content.contact}
+                </a>
+              </li>
+            </ul>
           </li>
-          <li>
-            <NavLink to="/about">{content.about}</NavLink>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/skarodzitsa/">
-              {content.contact}
-            </a>
-          </li>
+
           <li>
             <SearchIcon fontSize="small" />
             <input

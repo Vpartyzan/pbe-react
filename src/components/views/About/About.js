@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import Map from "../Map/MapContainer";
 
 import styles from "./About.module.scss";
+import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 const About = (props) => {
   const content = props.content[0].about;
@@ -54,11 +56,13 @@ const About = (props) => {
         <iframe
           src="https://www.youtube-nocookie.com/embed/JagemrPoeGU?vq=hd1080&autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&fs=0&controls=0&disablekb=1"
           width="80%"
-          height="45%"
+          height="100%"
           frameBorder="0"
         ></iframe>
       </div>
-      <Map />
+      {/* <div id={"map"}>
+        <Map />
+      </div> */}
     </div>
   );
 };

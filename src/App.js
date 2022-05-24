@@ -20,6 +20,10 @@ function App() {
           />
           <Route path={process.env.PUBLIC_URL + "/about"} element={<About />} />
           <Route
+            path={process.env.PUBLIC_URL + "/about/:block?"}
+            element={<About />}
+          ></Route>
+          <Route
             path={process.env.PUBLIC_URL + "/contact"}
             element={<Contact />}
           />

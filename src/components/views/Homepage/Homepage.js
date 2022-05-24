@@ -83,7 +83,9 @@ const Homepage = (props) => {
             </div>
           </div>
           <div className={styles.table_img}>
-            <EuroMap />
+            <NavLink to="/map">
+              <EuroMap />
+            </NavLink>
           </div>
           {/* <NavLink to="/map" className={styles.table_img}>
             {/* <Map /> */}
