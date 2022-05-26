@@ -36,6 +36,27 @@ $base-size: 12px;
 }
 
 @font-face {
+  font-family: "Titillium Web Italic";
+  src: url("./fonts/TitilliumWeb-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web Bold";
+  src: url("./fonts/TitilliumWeb-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web Regular";
+  src: url("./fonts/TitilliumWeb-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "calibri";
   src: url("./fonts/calibri.ttf") format("truetype");
   font-weight: normal;

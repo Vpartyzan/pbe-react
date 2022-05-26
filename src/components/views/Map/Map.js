@@ -139,7 +139,7 @@ const Map = (props) => {
                 style={{
                   fontFamily: `${
                     currentLanguage === "eng"
-                      ? "NewsGoth BT Italic"
+                      ? "Titillium Web Italic"
                       : "calibrii"
                   }`,
                 }}

@@ -98,7 +98,7 @@ const Exhibitions = (props) => {
         <p>{activeExhTextCont.subtitle}</p>
         <p>{activeExhTextCont.paragraph}</p>
         <div className={styles.btn_container}>
-          <NavLink to="/about" className={styles.btn}>
+          <NavLink to="/map" className={styles.btn}>
             Full Gallery →
           </NavLink>
         </div>
