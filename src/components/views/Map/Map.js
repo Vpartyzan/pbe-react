@@ -55,9 +55,8 @@ const Map = (props) => {
           version="1.1"
           id="Belarus"
           xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
           viewBox="0 0 550 490"
+          className={styles.viewMap}
         >
           <defs>
             <pattern
