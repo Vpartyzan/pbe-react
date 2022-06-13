@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 667px;
-  width: 500px;
+  height: 92vh;
+  width: auto;
   background-color: white;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -17,4 +17,10 @@
   height: 4em;
   position: relative;
   padding-top: 3em;
+}
+
+@media (max-width: 767px) {
+  .rotate360 {
+    height: 60vh;
+  }
 }

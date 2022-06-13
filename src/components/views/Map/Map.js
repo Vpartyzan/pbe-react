@@ -8,13 +8,25 @@ const Map = (props) => {
   const currentRegion = props.currentRegion;
   const currentLanguage = props.currentLanguage;
   const [curExhImg, setCurExhImg] = useState(
-    "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
+    `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-1-1.jpg?sv=2020-10-02&st=2022-04-06T17%3A18%3A52Z&se=2024-04-07T17%3A18%3A00Z&sr=c&sp=r&sig=EqtV3LRwqXyJnMg28TwWnGbKO4BKa0TCFgjf3d11loc%3D`
   );
+
+  console.log(currentRegion);
 
   const region = props.content[0];
 
   const handleClick = function (e) {
     props.changeRegion(e.target.id);
+
+    if (e.target.id === "Viciebsk") {
+      setCurExhImg(
+        "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
+      );
+    } else {
+      setCurExhImg(
+        `https://polyreactsa.blob.core.windows.net/images/${e.target.id.toLowerCase()}/${e.target.id.toLowerCase()}-1-1.jpg?sv=2020-10-02&st=2022-04-06T17%3A18%3A52Z&se=2024-04-07T17%3A18%3A00Z&sr=c&sp=r&sig=EqtV3LRwqXyJnMg28TwWnGbKO4BKa0TCFgjf3d11loc%3D`
+      );
+    }
   };
 
   const handleOver = function (e) {
@@ -29,7 +41,7 @@ const Map = (props) => {
 
   const handleOut = function (e) {
     setCurExhImg(
-      "https://i.postimg.cc/V62GczdF/94021247-517728538898925-8818940714446404587-n.jpg"
+      `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-1-1.jpg?sv=2020-10-02&st=2022-04-06T17%3A18%3A52Z&se=2024-04-07T17%3A18%3A00Z&sr=c&sp=r&sig=EqtV3LRwqXyJnMg28TwWnGbKO4BKa0TCFgjf3d11loc%3D`
     );
   };
 

@@ -41,7 +41,7 @@ const Header = (props) => {
           </li>
 
           <li>
-            <ul className="navLinks">
+            <ul className={styles.navLinks}>
               <li>
                 <NavLink to="/">{content.home}</NavLink>
               </li>

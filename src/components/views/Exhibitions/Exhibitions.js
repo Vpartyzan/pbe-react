@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 
 import Rotate360 from "./R360/RotateContainer";
 
@@ -13,6 +15,7 @@ const Exhibitions = (props) => {
   const currentLanguage = props.currentLanguage;
   const activeExhibition = props.activeExhibition;
   const [curPosition, setCurPosition] = useState(0);
+  const [curHorizPosition, setCurHorizPosition] = useState(0);
 
   const region = props.content[0].exhibition.filter(
     (exh) => exh.id === activeExhibition
@@ -22,7 +25,7 @@ const Exhibitions = (props) => {
     (content) => content.language === currentLanguage
   )[0];
 
-  console.log(props.content[0].exhibition);
+  // console.log(props.content[0].exhibition);
 
   const curImgCont = props.content[0];
 
@@ -31,7 +34,7 @@ const Exhibitions = (props) => {
   )[0];
 
   const handleUp = function () {
-    let height = 115;
+    let height = 128;
     let position = curPosition + height;
 
     position = Math.min(position, 0);
@@ -40,56 +43,98 @@ const Exhibitions = (props) => {
   };
 
   const handleDown = function () {
-    let height = 115;
-    let count = 5;
-    let wrapLenght = 6;
+    let height = 128;
+    // let count = 5;
+    // let wrapLenght = 6;
     let position = curPosition - height;
 
-    position = Math.max(position, -height * (wrapLenght - count));
+    // position = Math.max(position, -height * (wrapLenght - count));
+    console.log("!!!!!", position);
 
     setCurPosition(position);
+  };
+
+  const handleLeft = function () {
+    let width = 50;
+    let position = curHorizPosition + width;
+
+    position = Math.min(position, 0);
+
+    setCurHorizPosition(position);
+  };
+
+  const handleRight = function () {
+    let width = 50;
+    // let count = 4;
+    // let wrapLenght = 5;
+    let position = curHorizPosition - width;
+
+    // position = Math.max(position, -width * (wrapLenght - count));
+    setCurHorizPosition(position);
   };
 
   return (
     <div className={styles.container}>
       <div className={styles.curfoto}>
         <Rotate360 />
-      </div>
-      <div className={styles.allfoto}>
-        <div className={styles.carusel}>
-          <ArrowDropUpIcon
-            onClick={handleUp}
-            style={{
-              visibility: `${curPosition === 0 ? "hidden" : "visible"}`,
-            }}
-            fontSize="large"
-          />
-          <div id="gallery" className={styles.gallery}>
-            <ul
-              className={styles.wrapper}
-              style={{ marginTop: `${curPosition}px` }}
-            >
-              {curImgCont.exhibition.map((item) => (
-                <li key={item.id}>
-                  <img
-                    className={
-                      item.id === props.activeExhibition ? styles.active : ""
-                    }
-                    src={item.image}
-                    onClick={() => {
-                      props.changeExhibition(item.id);
-                      props.changeAmountImage(item.amountImg);
-                    }}
-                  />
-                </li>
-              ))}
-            </ul>
+
+        <div className={styles.allfoto}>
+          <div className={styles.carusel}>
+            <ArrowDropUpIcon
+              onClick={handleUp}
+              className={styles.vertical}
+              style={{
+                visibility: `${curPosition === 0 ? "hidden" : "visible"}`,
+              }}
+              fontSize="large"
+            />
+
+            <ArrowLeftIcon
+              className={styles.horisontal}
+              style={{
+                visibility: `${curHorizPosition === 0 ? "hidden" : "visible"}`,
+              }}
+              fontSize="large"
+              onClick={handleLeft}
+            />
+
+            <div id="gallery" className={styles.gallery}>
+              <ul
+                className={styles.wrapper}
+                style={{
+                  marginTop: `${curPosition}px`,
+                  marginLeft: `${curHorizPosition}px`,
+                }}
+              >
+                {curImgCont.exhibition.map((item) => (
+                  <li key={item.id}>
+                    <img
+                      className={
+                        item.id === props.activeExhibition ? styles.active : ""
+                      }
+                      src={item.image}
+                      onClick={() => {
+                        props.changeExhibition(item.id);
+                        props.changeAmountImage(item.amountImg);
+                      }}
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <ArrowRightIcon
+              className={styles.horisontal}
+              fontSize="large"
+              onClick={handleRight}
+            />
+
+            <ArrowDropDownIcon
+              className={styles.vertical}
+              onClick={handleDown}
+              fontSize="large"
+            />
           </div>
-          <ArrowDropDownIcon
-            className={styles.btnDown}
-            onClick={handleDown}
-            fontSize="large"
-          />
         </div>
       </div>
 

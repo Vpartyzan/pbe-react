@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Rotate360.css";
+import styles from "./Rotate360.scss";
 
 import PropTypes from "prop-types";
 
@@ -30,6 +30,7 @@ class Rotate360 extends Component {
 
   componentDidMount = () => {
     document.addEventListener("mousemove", this.handleMouseMove, false);
+    document.addEventListener("touchmove", this.handleMouseMove, false);
     document.addEventListener("mouseup", this.handleMouseUp, false);
     console.log("IMAGE:", this.props.amountImg);
     this.preloadImages();
@@ -50,6 +51,7 @@ class Rotate360 extends Component {
 
   componentWillUnmount = () => {
     document.removeEventListener("mousemove", this.handleMouseMove, false);
+    document.removeEventListener("touchmove", this.handleMouseMove, false);
     document.removeEventListener("mouseup", this.handleMouseUp, false);
   };
 
@@ -61,7 +63,7 @@ class Rotate360 extends Component {
     for (let i = 1; i <= amountImg; i++) {
       let image = new Image();
 
-      image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg#{sas.exhibition}#`;
+      image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg?sv=2020-10-02&st=2022-04-06T17%3A18%3A52Z&se=2024-04-07T17%3A18%3A00Z&sr=c&sp=r&sig=EqtV3LRwqXyJnMg28TwWnGbKO4BKa0TCFgjf3d11loc%3D`;
       image.alt = i;
       image.className = "rotate-360-img";
 
@@ -84,7 +86,20 @@ class Rotate360 extends Component {
     }));
   };
 
+  handleTouchStart = (e) => {
+    e.persist();
+    this.setState((state) => ({
+      dragging: true,
+      dragStart: e.targetTouches[0].screenX,
+      dragStartIndex: state.imageIndex,
+    }));
+  };
+
   handleMouseUp = () => {
+    this.setState({ dragging: false });
+  };
+
+  handleTouchEnd = () => {
     this.setState({ dragging: false });
   };
 
@@ -109,7 +124,9 @@ class Rotate360 extends Component {
 
   handleMouseMove = (e) => {
     if (this.state.dragging) {
-      this.updateImageIndex(e.screenX);
+      !e.targetTouches
+        ? this.updateImageIndex(e.screenX)
+        : this.updateImageIndex(e.targetTouches[0].screenX);
     }
   };
 
@@ -127,7 +144,7 @@ class Rotate360 extends Component {
         : `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-1.jpg#{sas.exhibition}#`;
 
     return (
-      <div className="rotate360">
+      <div className={styles.rotate360}>
         <img className="rotate-360-img" alt="" src={src} />
       </div>
     );
@@ -137,6 +154,7 @@ class Rotate360 extends Component {
     return (
       <div
         className="rotate-360-img"
+        onTouchStart={this.handleTouchStart}
         onMouseDown={this.handleMouseDown}
         onDragStart={this.preventDragHandler}
       >
