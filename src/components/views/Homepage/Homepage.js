@@ -20,7 +20,7 @@ const Homepage = (props) => {
             }`,
           }}
         >
-          {content.title}
+          Polychrome <br /> Belarus <br /> Embroidery
         </h1>
         <p
           style={{

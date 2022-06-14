@@ -1,8 +1,5 @@
-// const sas = "#{sas.exhibition}#";
-// const contentSas = "#{sas.content}#";
-
-const sas =
-  "?sv=2020-10-02&st=2022-04-06T17%3A18%3A52Z&se=2024-04-07T17%3A18%3A00Z&sr=c&sp=r&sig=EqtV3LRwqXyJnMg28TwWnGbKO4BKa0TCFgjf3d11loc%3D";
+const sas = "#{sas.exhibition}#";
+const contentSas = "#{sas.content}#";
 
 const state = {
   currentLanguage: "eng",
@@ -16,7 +13,7 @@ const content = {
     {
       language: "eng",
       homePage: {
-        title: "Polychrome Belarus Embroidery",
+        title: `Polychrome Belarus Embroidery`,
         firstPar:
           "The project was implemented within the Creative Industries course of EHU Cultural Heritage Development Masters program.",
         secondPar: "",

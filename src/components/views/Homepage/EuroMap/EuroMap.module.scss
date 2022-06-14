@@ -3,3 +3,70 @@ svg:hover {
     fill: rgb(26, 23, 23);
   }
 }
+
+.map {
+  width: 28vw;
+  height: 44vh;
+  max-width: 350px;
+  max-height: 300px;
+}
+
+@media (min-width: 960px) and (max-width: 1024px) {
+  .map {
+    max-height: 41vh;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 960px) {
+  .map {
+    max-height: 39vh;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 900px) {
+  .map {
+    max-height: 36vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .map {
+    max-height: 34vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .map {
+    max-height: 32vh;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 767px) {
+  .map {
+    max-height: 28vh;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 739px) {
+  .map {
+    max-height: 26vh;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 699px) {
+  .map {
+    max-height: 24vh;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 660px) {
+  .map {
+    max-height: 22vh;
+  }
+}
+
+@media (max-width: 599px) {
+  .map {
+    width: 90vw;
+  }
+}
