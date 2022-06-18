@@ -36,7 +36,7 @@
 
 .container {
   width: 1140px;
-  padding: 0 20px;
+  // padding: 0 20px;
   margin: auto;
   text-align: end;
 }
@@ -96,5 +96,18 @@
       margin-right: 12px;
       margin-bottom: 6px;
     }
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+    font-size: 2vh;
+    margin: auto;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .navLinks {
+    padding-inline-start: 10px;
   }
 }

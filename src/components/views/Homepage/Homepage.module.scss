@@ -304,3 +304,9 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 250px) {
+  .home_btn {
+    font-size: 1.9vh;
+  }
+}

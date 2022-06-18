@@ -13,7 +13,7 @@ svg:hover {
 
 @media (min-width: 960px) and (max-width: 1024px) {
   .map {
-    max-height: 41vh;
+    max-height: 34vh;
   }
 }
 
@@ -68,5 +68,12 @@ svg:hover {
 @media (max-width: 599px) {
   .map {
     width: 90vw;
+  }
+}
+
+@media (max-height: 350px) {
+  .map {
+    width: 90vw;
+    height: 90vh;
   }
 }

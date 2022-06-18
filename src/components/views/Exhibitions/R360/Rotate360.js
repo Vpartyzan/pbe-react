@@ -63,7 +63,7 @@ class Rotate360 extends Component {
     for (let i = 1; i <= amountImg; i++) {
       let image = new Image();
 
-      image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg?#{sas.exhibition}#`;
+      image.src = `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-${activeExhibition}-${i}.jpg#{sas.exhibition}#`;
       image.alt = i;
       image.className = "rotate-360-img";
 
