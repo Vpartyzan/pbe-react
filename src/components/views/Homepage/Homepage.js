@@ -9,6 +9,7 @@ import styles from "./Homepage.module.scss";
 const Homepage = (props) => {
   const content = props.content[0].homePage;
   const language = props.content[0].language;
+  console.log(props);
 
   return (
     <div className={styles.container}>

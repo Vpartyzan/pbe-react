@@ -1,16 +1,19 @@
 import { combineReducers, createStore } from "redux";
 import initialStoreData from "../data/dataStore";
 import stateReducer from "./stateRedux";
+import searchString from "./searchStringRedux";
 
 // define initial state and shallow-merge initial data
 const initialState = {
   state: initialStoreData.state,
   content: initialStoreData.content,
+  searchString: "",
 };
 
 // define reducers
 const reducers = {
   state: stateReducer,
+  searchString,
 };
 
 // add blank reducers for initial state properties without reducers

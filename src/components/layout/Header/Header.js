@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 
 import SearchIcon from "@mui/icons-material/Search";
 
+import Search from "../../Search/SearchContainer.js";
+
 import styles from "./Header.module.scss";
 
 const Header = (props) => {
@@ -58,11 +60,7 @@ const Header = (props) => {
 
           <li>
             <SearchIcon fontSize="small" />
-            <input
-              className={styles.searcher}
-              type="search"
-              placeholder="Search"
-            />
+            <Search />
           </li>
         </ul>
       </div>
