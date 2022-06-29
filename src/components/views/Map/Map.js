@@ -11,7 +11,7 @@ const Map = (props) => {
     `https://polyreactsa.blob.core.windows.net/images/${currentRegion.toLowerCase()}/${currentRegion.toLowerCase()}-1-1.jpg?sv=2020-10-02&st=2022-04-06T17%3A18%3A52Z&se=2024-04-07T17%3A18%3A00Z&sr=c&sp=r&sig=EqtV3LRwqXyJnMg28TwWnGbKO4BKa0TCFgjf3d11loc%3D`
   );
 
-  console.log(currentRegion);
+  // console.log(currentRegion);
 
   const region = props.content[0];
 

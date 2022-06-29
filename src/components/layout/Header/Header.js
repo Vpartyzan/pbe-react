@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
+import { useLocation } from "react-router-dom";
 
 import SearchIcon from "@mui/icons-material/Search";
 
@@ -9,6 +10,7 @@ import Search from "../../Search/SearchContainer.js";
 import styles from "./Header.module.scss";
 
 const Header = (props) => {
+  const { pathname } = useLocation();
   const content = props.content[0].header;
 
   const handleClick = function (e) {
@@ -58,9 +60,15 @@ const Header = (props) => {
             </ul>
           </li>
 
-          <li>
+          <li
+            style={{
+              display: `${pathname === "/search" ? "none" : ""}`,
+            }}
+          >
             <SearchIcon fontSize="small" />
-            <Search />
+            <div className={styles.searcher}>
+              <Search />
+            </div>
           </li>
         </ul>
       </div>

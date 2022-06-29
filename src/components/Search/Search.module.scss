@@ -6,3 +6,21 @@
   padding-top: 3px;
   width: 100px;
 }
+
+.btn_container {
+  // display: flex;
+  // text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btnSearch {
+  color: white;
+  background: #000000;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 33px;
+  padding: 15px 36px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "MyriadProRegular";
+}

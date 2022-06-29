@@ -1,5 +1,16 @@
 @import "../../../styles/settings.scss";
 
+.searcher {
+  input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    padding-top: 3px;
+    width: 100px;
+  }
+}
+
 .navWrapper {
   list-style-type: none;
 

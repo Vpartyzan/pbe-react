@@ -21,11 +21,11 @@ const Exhibitions = (props) => {
     (exh) => exh.id === activeExhibition
   )[0];
 
+  // console.log("!!!!!", props.content);
+
   const activeExhTextCont = region.content.filter(
     (content) => content.language === currentLanguage
   )[0];
-
-  // console.log(props.content[0].exhibition);
 
   const curImgCont = props.content[0];
 
@@ -49,7 +49,7 @@ const Exhibitions = (props) => {
     let position = curPosition - height;
 
     // position = Math.max(position, -height * (wrapLenght - count));
-    console.log("!!!!!", position);
+    // console.log("!!!!!", position);
 
     setCurPosition(position);
   };
