@@ -1,7 +1,24 @@
 // selectors
 export const getSearchString = ({ searchString }) => searchString;
-// export const countAllCards = ({cards}) => cards.length;
-// export const countVisibleCards = ({cards, searchString}) => cards.filter(card => new RegExp(searchString, 'i').test(card.title)).length;
+export const getSearchContent = ({ regions }, searchString) => {
+  const arr = [];
+
+  if (searchString === "") {
+    return arr;
+  } else {
+    for (let region of regions) {
+      for (let exh of region.exhibition) {
+        for (let content of exh.content) {
+          if (new RegExp(searchString, "i").test(content.title)) {
+            arr.push({ ...exh, currentRegion: region.name });
+          }
+        }
+      }
+    }
+  }
+
+  return arr;
+};
 
 // action name creator
 const reducerName = "searchString";

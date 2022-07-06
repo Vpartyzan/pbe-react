@@ -3,6 +3,7 @@ import SearchResult from "./SearchResult";
 
 import {
   getSearchString,
+  getSearchContent,
   createAction_changeSearchString,
 } from "../../../redux/searchStringRedux";
 import {
@@ -11,28 +12,8 @@ import {
   changeAmountImage,
 } from "../../../redux/stateRedux";
 
-const getSearchContent = ({ regions }, searchString) => {
-  const arr = [];
-
-  if (searchString === "") {
-    return arr;
-  } else {
-    for (let region of regions) {
-      for (let exh of region.exhibition) {
-        for (let content of exh.content) {
-          if (new RegExp(searchString, "i").test(content.title)) {
-            arr.push({ ...exh, currentRegion: region.name });
-          }
-        }
-      }
-    }
-  }
-
-  return arr;
-};
-
 const mapStateToProps = (state) => ({
-  searchString: state.searchString,
+  searchString: getSearchString(state),
   searchResult: getSearchContent(state.content, state.searchString),
   currentLanguage: state.state.currentLanguage,
 });

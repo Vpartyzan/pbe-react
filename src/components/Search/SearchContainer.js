@@ -7,7 +7,7 @@ import {
 } from "../../redux/searchStringRedux";
 
 const mapStateToProps = (state) => ({
-  searchString: state.searchString,
+  searchString: getSearchString(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({

@@ -10,12 +10,14 @@ const SearchResult = (props) => {
   const searchResult = props.searchResult;
   const currentLanguage = props.currentLanguage;
 
+  console.log("res:", searchResult);
+
   const isContent = function () {
     if (searchResult.length > 0) {
       return searchResult.map((item) => (
         <NavLink
           to="/exhibitions"
-          key={item.id}
+          key={item.id + "_" + item.amountImg}
           className={styles.result}
           onClick={() => {
             props.changeExhibition(item.id);
@@ -40,7 +42,7 @@ const SearchResult = (props) => {
           </div>
         </NavLink>
       ));
-    } else {
+    } else if (searchResult.length < 1) {
       switch (currentLanguage) {
         case "eng":
           return (

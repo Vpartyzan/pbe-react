@@ -21,7 +21,7 @@ const Search = (props) => {
     }
   };
 
-  const handleClick = function () {
+  const handleClick = function (event) {
     props.changeSearchString(value);
   };
 
