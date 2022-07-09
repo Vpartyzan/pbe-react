@@ -141,6 +141,7 @@ const Map = (props) => {
               key={item.id}
               onMouseOver={handleOver}
               onMouseOut={handleOut}
+              className={styles.activeLink}
               onClick={() => {
                 props.changeExhibition(item.id);
                 props.changeAmountImage(item.amountImg);

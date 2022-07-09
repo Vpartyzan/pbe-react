@@ -44,14 +44,18 @@
 .result {
   text-decoration: none;
   display: flex;
+  height: 100px;
   width: 50vw;
   margin-top: 20px;
+  color: #161515;
 }
 
 .result:hover {
-  border: ridge;
-  border-radius: 10px;
-  border-color: black;
+  // border: ridge;
+  border-radius: 2px;
+  // border-color: black;
+  background-color: #161515;
+  color: rgb(241, 239, 239);
 }
 
 .resImg {
