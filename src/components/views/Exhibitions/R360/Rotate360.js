@@ -135,7 +135,7 @@ class Rotate360 extends Component {
   };
 
   renderImage = () => {
-    const { imageIndex, imgArr } = this.state;
+    const { imageIndex, imgArr, dragging } = this.state;
     const { currentRegion, activeExhibition } = this.props;
 
     let src =
@@ -145,7 +145,14 @@ class Rotate360 extends Component {
 
     return (
       <div className={styles.rotate360}>
-        <img className="rotate-360-img" alt="" src={src} />
+        <img
+          style={{
+            cursor: `${dragging ? "grabbing" : "grab"}`,
+          }}
+          className="rotate-360-img"
+          alt=""
+          src={src}
+        />
       </div>
     );
   };
