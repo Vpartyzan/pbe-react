@@ -14,7 +14,6 @@ const Header = (props) => {
   const content = props.content[0].header;
 
   const handleClick = function (e) {
-    // console.log(e.target.innerText.toLowerCase());
     props.changeLanguage(e.target.innerText.toLowerCase());
   };
 
@@ -53,9 +52,7 @@ const Header = (props) => {
                 <NavLink to="/about">{content.about}</NavLink>
               </li>
               <li>
-                <a href="https://www.instagram.com/skarodzitsa/">
-                  {content.contact}
-                </a>
+                <NavLink to="/contact">{content.contact}</NavLink>
               </li>
             </ul>
           </li>

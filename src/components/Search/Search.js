@@ -8,7 +8,9 @@ const Search = (props) => {
   const [value, setValue] = useState("");
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  // console.log(pathname);
+  const currentLanguage = props.currentLanguage;
+
+  console.log(currentLanguage);
 
   const handleChange = function (event) {
     setValue(event.target.value);
@@ -25,12 +27,31 @@ const Search = (props) => {
     props.changeSearchString(value);
   };
 
+  const setLanguage = function () {
+    switch (currentLanguage) {
+      case "eng":
+        return "Search";
+        break;
+      case "blr":
+        return "Шукаць";
+        break;
+      case "ru":
+        return "Искать";
+        break;
+    }
+  };
+
   return (
     <div>
       <input
+        style={{
+          fontFamily: `${
+            currentLanguage === "eng" ? "MyriadProRegular" : "calibri"
+          }`,
+        }}
         value={value}
         type="search"
-        placeholder="Search"
+        placeholder={setLanguage()}
         onChange={handleChange}
         onKeyPress={handlePress}
       />
@@ -42,7 +63,7 @@ const Search = (props) => {
         }}
       >
         <button className={styles.btnSearch} onClick={handleClick}>
-          Search
+          {setLanguage()}
         </button>
       </div>
     </div>
@@ -50,6 +71,7 @@ const Search = (props) => {
 };
 
 Search.propTypes = {
+  currentLanguage: PropTypes.string.isRequired,
   searchString: PropTypes.string,
   changeSearchString: PropTypes.func,
 };

@@ -51,7 +51,7 @@ const Map = (props) => {
         <p
           style={{
             fontFamily: `${
-              currentLanguage === "eng" ? "Microsoft JhengHei" : "calibri"
+              currentLanguage === "eng" ? "Titillium Web Regular" : "calibri"
             }`,
           }}
         >

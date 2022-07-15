@@ -8,6 +8,7 @@ import {
 
 const mapStateToProps = (state) => ({
   searchString: getSearchString(state),
+  currentLanguage: state.state.currentLanguage,
 });
 
 const mapDispatchToProps = (dispatch) => ({

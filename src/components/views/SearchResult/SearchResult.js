@@ -46,21 +46,24 @@ const SearchResult = (props) => {
       switch (currentLanguage) {
         case "eng":
           return (
-            <div className={styles.result}>
+            <div
+              className={styles.result}
+              style={{ fontFamily: `MyriadProRegular` }}
+            >
               <h1>Sorry, your search returned no results</h1>
             </div>
           );
           break;
         case "blr":
           return (
-            <div className={styles.result}>
+            <div className={styles.result} style={{ fontFamily: `calibri` }}>
               <h1>На жаль, ваш пошук не даў вынікаў</h1>
             </div>
           );
           break;
         case "ru":
           return (
-            <div className={styles.result}>
+            <div className={styles.result} style={{ fontFamily: `calibri` }}>
               <h1>Извините, ваш поиск не дал результатов</h1>
             </div>
           );
@@ -69,11 +72,35 @@ const SearchResult = (props) => {
     }
   };
 
+  const searchTitle = function () {
+    switch (currentLanguage) {
+      case "eng":
+        return (
+          <h1 style={{ fontFamily: `MyriadProRegular` }}>
+            {props.searchString} - search on site
+          </h1>
+        );
+        break;
+      case "blr":
+        return (
+          <h1 style={{ fontFamily: `calibri` }}>
+            {props.searchString} - пошук на сайце
+          </h1>
+        );
+        break;
+      case "ru":
+        return (
+          <h1 style={{ fontFamily: `calibri` }}>
+            {props.searchString} - поиск на сайте
+          </h1>
+        );
+        break;
+    }
+  };
+
   return (
     <div className={styles.container}>
-      <div className={styles.title}>
-        <h1>{props.searchString} - search on site</h1>
-      </div>
+      <div className={styles.title}>{searchTitle()}</div>
       <div className={styles.searcher}>
         <Search />
       </div>
