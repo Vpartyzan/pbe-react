@@ -33,6 +33,16 @@ const content = {
         secondPar:
           "However, it is incorrect to consider this time as a certain isolated period without any influences. In each part of the country, the change (or rather the evolution) of the regional costume has taken its own unique path, making the preserved artifacts unique remnants of a vanished phenomenon.",
       },
+      contact: {
+        first: "project coordinator and collection keeper -",
+        firstName: "Aliaksandra Navitskaya",
+        second: "web page development -",
+        secondName: "Maksim Cichanau",
+        third: "photo",
+        thirdName: "",
+        fourth: "visual design - Iryna Goncharik",
+        fourthName: "Makrida@gmail.com",
+      },
     },
     {
       language: "blr",
@@ -57,6 +67,16 @@ const content = {
         secondPar:
           "У кожнай частцы краіны змяненне (а недзе хутчэй эвалюцыя) народнага строя праходзіла па свой унікальны шлях, што робіць захаваныя артэфакты ўнікальнымі рэшткамі зніклай з’явы. ",
       },
+      contact: {
+        first: "аўтар праекта і захавальнік калекцыі -",
+        firstName: "Аляксандра Навіцкая",
+        second: "распрацоўка сайта -",
+        secondName: "Максім Ціханаў",
+        third: "photo",
+        thirdName: "",
+        fourth: "дызайн - Ірына Ганчарык",
+        fourthName: "Makrida@gmail.com",
+      },
     },
     {
       language: "ru",
@@ -80,6 +100,16 @@ const content = {
           "Начало ХХ века характеризуется технологическим подъемом. Быстро появляются сначала новые способы декорирования одежды, а затем и новая колористика с разнообразием используемых материалов. Начиная с 1910-х годов широкое использование находят анилиновые красители и традиционные костюмы мгновенно расцветают яркими красками, создавая новое явление полихромных народных сорочек. Способы вышивания трансформируются и на смену «устаревшей» технике вышивки крестиком постепенно приходит гладь. К сожалению, совесткий период для Беларуси стал временем унифицирования и упрощающей театрализации идеи народного костюма. Несмотря на это неправильно рассматривать это время как некий изолированный период.",
         secondPar:
           "В каждой части страны изменение (а где-то скорее эволюция) народного костюма проходила свой уникальный путь, что делает сохраненные артефакты уникальными остатками исчезнувшего явления.",
+      },
+      contact: {
+        first: "автор проекта и хранитель коллекции -",
+        firstName: "Александра Новицкая",
+        second: "web page development -",
+        secondName: "Максим Тихонов",
+        third: "photo",
+        thirdName: "",
+        fourth: "дизайн - Ирина Гончарик",
+        fourthName: "Makrida@gmail.com",
       },
     },
   ],

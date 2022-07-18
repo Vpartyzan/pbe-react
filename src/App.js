@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "./components/layout/MainLayout/MainLayout";
 import Homepage from "./components/views/Homepage/HomepageContainer";
 import About from "./components/views/About/AboutContainer";
-import Contact from "./components/views/Contact/Contact";
+import Contact from "./components/views/Contact/ContactContainer";
 import Map from "./components/views/Map/MapContainer";
 import Exhibitions from "./components/views/Exhibitions/ExhibitionsContainer";
 import SearchResult from "./components/views/SearchResult/SearchResultContainer";
