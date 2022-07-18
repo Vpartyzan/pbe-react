@@ -28,7 +28,13 @@ const SearchResult = (props) => {
           <div className={styles.resImg}>
             <img src={item.image} title={item.id} />
           </div>
-          <div>
+          <div
+            style={{
+              fontFamily: `${
+                currentLanguage === "eng" ? "MyriadProRegular" : "calibri"
+              }`,
+            }}
+          >
             <h2 className={styles.title}>
               {item.content
                 .filter((content) => content.language === currentLanguage)
