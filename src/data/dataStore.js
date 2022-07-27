@@ -13,7 +13,7 @@ const content = {
     {
       language: "eng",
       homePage: {
-        title: `Polychrome Belarus Embroidery`,
+        title: ["Polychrome", "Belarus", "Embroidery"],
         firstPar:
           "The project was implemented within the Creative Industries course of EHU Cultural Heritage Development Masters program.",
         secondPar: "",
@@ -38,16 +38,16 @@ const content = {
         firstName: "Aliaksandra Navitskaya",
         second: "web page development -",
         secondName: "Maksim Cichanau",
-        third: "photo",
-        thirdName: "",
-        fourth: "visual design - Iryna Goncharik",
-        fourthName: "Makrida@gmail.com",
+        third: "photo -",
+        thirdName: "Piotr Astrelin",
+        fourth: "visual design -",
+        fourthName: "Iryna Goncharik",
       },
     },
     {
       language: "blr",
       homePage: {
-        title: "Паліхромная беларуская вышыўка",
+        title: ["Паліхромная", "беларуская", "вышыўка"],
         firstPar:
           "Гэты праект рэалізаваны ў межах магістарскай праграмы ЕГУ Развіцце культурнай спадчыны, курс Крэатыўныя індустрыі",
         secondPar: "",
@@ -72,16 +72,16 @@ const content = {
         firstName: "Аляксандра Навіцкая",
         second: "распрацоўка сайта -",
         secondName: "Максім Ціханаў",
-        third: "photo",
-        thirdName: "",
-        fourth: "дызайн - Ірына Ганчарык",
-        fourthName: "Makrida@gmail.com",
+        third: "фота -",
+        thirdName: "Пятро Астрэлін",
+        fourth: "дызайн -",
+        fourthName: "Ірына Ганчарык",
       },
     },
     {
       language: "ru",
       homePage: {
-        title: "Полихромная белорусская вышивка",
+        title: ["Полихромная", "белорусская", "вышивка"],
         firstPar:
           "Этот проект реализован в рамках магистерской программы ЕГУ Развитие культурного наследия, курс Креативные индустрии.",
         secondPar: "",
@@ -104,12 +104,12 @@ const content = {
       contact: {
         first: "автор проекта и хранитель коллекции -",
         firstName: "Александра Новицкая",
-        second: "web page development -",
+        second: "разработка сайта -",
         secondName: "Максим Тихонов",
-        third: "photo",
-        thirdName: "",
-        fourth: "дизайн - Ирина Гончарик",
-        fourthName: "Makrida@gmail.com",
+        third: "фото -",
+        thirdName: "Пётр Астрелин",
+        fourth: "дизайн -",
+        fourthName: "Ирина Гончарик",
       },
     },
   ],

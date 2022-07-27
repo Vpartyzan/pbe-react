@@ -21,8 +21,6 @@ const Exhibitions = (props) => {
     (exh) => exh.id === activeExhibition
   )[0];
 
-  // console.log("!!!!!", props.content);
-
   const activeExhTextCont = region.content.filter(
     (content) => content.language === currentLanguage
   )[0];
@@ -49,7 +47,6 @@ const Exhibitions = (props) => {
     let position = curPosition - height;
 
     // position = Math.max(position, -height * (wrapLenght - count));
-    // console.log("!!!!!", position);
 
     setCurPosition(position);
   };
@@ -139,9 +136,33 @@ const Exhibitions = (props) => {
       </div>
 
       <div className={styles.description}>
-        <h3>{activeExhTextCont.title}</h3>
-        <p>{activeExhTextCont.subtitle}</p>
-        <p>{activeExhTextCont.paragraph}</p>
+        <h3
+          style={{
+            fontFamily: `${
+              currentLanguage === "eng" ? "Microsoft JhengHei Bold" : "calibrib"
+            }`,
+          }}
+        >
+          {activeExhTextCont.title}
+        </h3>
+        <p
+          style={{
+            fontFamily: `${
+              currentLanguage === "eng" ? "Microsoft JhengHei" : "calibri"
+            }`,
+          }}
+        >
+          {activeExhTextCont.subtitle}
+        </p>
+        <p
+          style={{
+            fontFamily: `${
+              currentLanguage === "eng" ? "Microsoft JhengHei" : "calibri"
+            }`,
+          }}
+        >
+          {activeExhTextCont.paragraph}
+        </p>
         <div className={styles.btn_container}>
           <NavLink to="/map" className={styles.btn}>
             Full Gallery →

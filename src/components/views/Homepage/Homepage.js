@@ -9,7 +9,6 @@ import styles from "./Homepage.module.scss";
 const Homepage = (props) => {
   const content = props.content[0].homePage;
   const language = props.content[0].language;
-  console.log(props);
 
   return (
     <div className={styles.container}>
@@ -21,7 +20,7 @@ const Homepage = (props) => {
             }`,
           }}
         >
-          Polychrome <br /> Belarus <br /> Embroidery
+          {content.title[0]} <br /> {content.title[1]} <br /> {content.title[2]}
         </h1>
         <p
           style={{
@@ -32,7 +31,6 @@ const Homepage = (props) => {
         >
           {content.firstPar}
         </p>
-        {/* <p>{content.secondPar}</p> */}
         <div className={styles.btn_container}>
           <NavLink to="/about" className={styles.home_btn}>
             {content.btn} →
@@ -44,6 +42,7 @@ const Homepage = (props) => {
           <div className={styles.thumbs}>
             <img
               src={`https://polyreactsa.blob.core.windows.net/content/1.png?sv=2020-10-02&st=2022-02-18T17%3A57%3A02Z&se=2027-01-31T17%3A57%3A00Z&sr=c&sp=r&sig=ae3fsZvxWWXaE7mTUmdiD%2Fv7p36XR6asc1GTWGs4Yyc%3D`}
+              title="Shirt"
             />
             <div className={styles.caption}>
               <span className={styles.title}>The Shirt</span>
@@ -59,7 +58,7 @@ const Homepage = (props) => {
           <div className={styles.thumbs}>
             <img
               src={`https://polyreactsa.blob.core.windows.net/content/3.png?sv=2020-10-02&st=2022-02-18T17%3A57%3A02Z&se=2027-01-31T17%3A57%3A00Z&sr=c&sp=r&sig=ae3fsZvxWWXaE7mTUmdiD%2Fv7p36XR6asc1GTWGs4Yyc%3D`}
-              title="sadasdasdasd"
+              title="Apron"
             />
             <div className={styles.caption}>
               <span className={styles.title}>An Apron?</span>
@@ -72,6 +71,7 @@ const Homepage = (props) => {
           <div className={styles.thumbs}>
             <img
               src={`https://polyreactsa.blob.core.windows.net/content/2.png?sv=2020-10-02&st=2022-02-18T17%3A57%3A02Z&se=2027-01-31T17%3A57%3A00Z&sr=c&sp=r&sig=ae3fsZvxWWXaE7mTUmdiD%2Fv7p36XR6asc1GTWGs4Yyc%3D`}
+              title="Head Scarf"
             />
             <div className={styles.caption}>
               <span className={styles.title}>Head Scarf</span>
@@ -88,11 +88,6 @@ const Homepage = (props) => {
               <EuroMap />
             </NavLink>
           </div>
-          {/* <NavLink to="/map" className={styles.table_img}>
-            {/* <Map /> */}
-          {/* <EuroMap /> */}
-          {/* <img src="https://i.postimg.cc/44pyMWDV/depositphotos-65928399-stock-illustration-grey-map-of-belarus.jpg" /> */}
-          {/* </NavLink> */}
         </div>
       </div>
     </div>

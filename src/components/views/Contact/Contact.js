@@ -13,24 +13,24 @@ const Contact = (props) => {
         className={styles.table}
         style={{
           fontFamily: `${
-            currentLanguage === "eng" ? "MyriadProRegular" : "calibri b"
+            currentLanguage === "eng" ? "MyriadProRegular" : "calibrib"
           }`,
         }}
       >
-        <p>{content.contact.first}</p>
+        <h4>{content.contact.first}</h4>
         <a href="https://www.instagram.com/skarodzitsa/">
           {content.contact.firstName}
         </a>
-        <p>{content.contact.second}</p>
+        <h4>{content.contact.second}</h4>
         <a href="https://www.linkedin.com/in/maksim-cichanau-3108031a7/">
           {content.contact.secondName}
         </a>
-        {/* <p>photo</p>
+        <h4>{content.contact.third}</h4>
         <a href="https://www.instagram.com/piatruha/">
-          https://www.instagram.com/piatruha/
-        </a> */}
-        <p>{content.contact.fourth}</p>
-        <a> {content.contact.fourthName}</a>
+          {content.contact.thirdName}
+        </a>
+        <h4>{content.contact.fourth}</h4>
+        <a href="mailto:Makrida@gmail.com">{content.contact.fourthName}</a>
       </div>
     </div>
   );

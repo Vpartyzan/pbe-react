@@ -4,10 +4,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  // width: 1140px;
-  // margin: 0 auto;
-  // text-align: left;
-  // font-family: "newsgoth_lt_btlight";
 }
 
 .table {
@@ -15,8 +11,9 @@
   top: 50%;
   left: 25%;
   padding-top: 70px;
+  font-size: 2.5vh;
 
-  p {
+  h4 {
     margin-bottom: 5px;
   }
 }
