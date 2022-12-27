@@ -12,6 +12,7 @@ import styles from "./Header.module.scss";
 const Header = (props) => {
   const { pathname } = useLocation();
   const content = props.content[0].header;
+  const currentLanguage = props.currentLanguage;
 
   const handleClick = function (e) {
     props.changeLanguage(e.target.innerText.toLowerCase());
@@ -45,13 +46,37 @@ const Header = (props) => {
 
           <li>
             <ul className={styles.navLinks}>
-              <li>
+              <li
+                style={{
+                  fontFamily: `${
+                    currentLanguage === "eng"
+                      ? "Titillium Web Regular"
+                      : "calibri"
+                  }`,
+                }}
+              >
                 <NavLink to="/">{content.home}</NavLink>
               </li>
-              <li>
+              <li
+                style={{
+                  fontFamily: `${
+                    currentLanguage === "eng"
+                      ? "Titillium Web Regular"
+                      : "calibri"
+                  }`,
+                }}
+              >
                 <NavLink to="/about">{content.about}</NavLink>
               </li>
-              <li>
+              <li
+                style={{
+                  fontFamily: `${
+                    currentLanguage === "eng"
+                      ? "Titillium Web Regular"
+                      : "calibri"
+                  }`,
+                }}
+              >
                 <NavLink to="/contact">{content.contact}</NavLink>
               </li>
             </ul>
@@ -76,6 +101,7 @@ const Header = (props) => {
 Header.propTypes = {
   content: PropTypes.array.isRequired,
   changeLanguage: PropTypes.func,
+  currentLanguage: PropTypes.string.isRequired,
 };
 
 export default Header;

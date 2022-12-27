@@ -6,13 +6,10 @@
   width: 1140px;
   margin: 0 auto;
   text-align: left;
-  font-family: "newsgoth_lt_btlight";
 }
 
 .map {
   flex: 8;
-  // width: 100%;
-  // height: auto;
 }
 
 .viewMap {
@@ -22,7 +19,6 @@
 
 .regions {
   fill: #eeeeee;
-  // stroke: #ffffff;
   stroke-width: 2;
 }
 
@@ -43,7 +39,6 @@
   li {
     margin-bottom: 10px;
     color: #161515;
-    // font-family: "NewsGoth BT Italic";
   }
 }
 
@@ -59,7 +54,7 @@
   max-height: 250px;
   max-width: 150px;
   p {
-    font-family: "Microsoft JhengHei";
+    font-family: "Titillium Web Regular";
   }
 }
 

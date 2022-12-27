@@ -5,7 +5,6 @@ import MainLayout from "./components/layout/MainLayout/MainLayout";
 import Homepage from "./components/views/Homepage/HomepageContainer";
 import About from "./components/views/About/AboutContainer";
 import Contact from "./components/views/Contact/ContactContainer";
-import Map from "./components/views/Map/MapContainer";
 import Exhibitions from "./components/views/Exhibitions/ExhibitionsContainer";
 import SearchResult from "./components/views/SearchResult/SearchResultContainer";
 
@@ -28,7 +27,6 @@ function App() {
             path={process.env.PUBLIC_URL + "/contact"}
             element={<Contact />}
           />
-          <Route path={process.env.PUBLIC_URL + "/map"} element={<Map />} />
           <Route
             path={process.env.PUBLIC_URL + "/exhibitions"}
             element={<Exhibitions />}

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
+import { HashLink } from "react-router-hash-link";
 
 import EuroMap from "./EuroMap/EuroMap";
 
@@ -16,7 +17,7 @@ const Homepage = (props) => {
         <h1
           style={{
             fontFamily: `${
-              language === "eng" ? "Microsoft JhengHei light" : "FreeSet"
+              language === "eng" ? "Titillium Web light" : "FreeSet"
             }`,
           }}
         >
@@ -25,7 +26,7 @@ const Homepage = (props) => {
         <p
           style={{
             fontFamily: `${
-              language === "eng" ? "Microsoft JhengHei" : "calibri"
+              language === "eng" ? "Titillium Web Regular" : "calibri"
             }`,
           }}
         >
@@ -84,9 +85,9 @@ const Homepage = (props) => {
             </div>
           </div>
           <div className={styles.table_img}>
-            <NavLink to="/map">
+            <HashLink to="/about#map">
               <EuroMap />
-            </NavLink>
+            </HashLink>
           </div>
         </div>
       </div>

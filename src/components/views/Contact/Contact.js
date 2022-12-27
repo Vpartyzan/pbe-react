@@ -13,7 +13,7 @@ const Contact = (props) => {
         className={styles.table}
         style={{
           fontFamily: `${
-            currentLanguage === "eng" ? "MyriadProRegular" : "calibrib"
+            currentLanguage === "eng" ? "Titillium Web Regular" : "calibrib"
           }`,
         }}
       >

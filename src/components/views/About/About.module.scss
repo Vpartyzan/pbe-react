@@ -6,6 +6,37 @@
   width: 1140px;
   margin: 0 auto;
   text-align: left;
+  scroll-snap-type: y proximity;
+
+  .aboutSection {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mapSection {
+    height: 100vh;
+  }
+
+  .text {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .table_img {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 40vh;
+    padding-bottom: 36px;
+
+    img {
+      width: 70%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 }
 
 h1 {
@@ -15,25 +46,6 @@ h1 {
 
 h3 {
   text-align: center;
-}
-
-.table_img {
-  display: flex;
-  justify-content: center;
-  width: auto;
-  height: 40vh;
-  padding-bottom: 36px;
-
-  img {
-    width: 70%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-.text {
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -51,5 +63,19 @@ h3 {
 @media (max-width: 599px) {
   .container {
     width: 100%;
+  }
+
+  .aboutSection {
+    height: 135vh !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .container {
+    width: 100%;
+  }
+
+  .aboutSection {
+    height: 165vh !important;
   }
 }

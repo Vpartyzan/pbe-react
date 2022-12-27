@@ -139,7 +139,7 @@ const Exhibitions = (props) => {
         <h3
           style={{
             fontFamily: `${
-              currentLanguage === "eng" ? "Microsoft JhengHei Bold" : "calibrib"
+              currentLanguage === "eng" ? "Titillium Web Bold" : "calibrib"
             }`,
           }}
         >
@@ -148,7 +148,7 @@ const Exhibitions = (props) => {
         <p
           style={{
             fontFamily: `${
-              currentLanguage === "eng" ? "Microsoft JhengHei" : "calibri"
+              currentLanguage === "eng" ? "Titillium Web Regular" : "calibri"
             }`,
           }}
         >
@@ -157,7 +157,7 @@ const Exhibitions = (props) => {
         <p
           style={{
             fontFamily: `${
-              currentLanguage === "eng" ? "Microsoft JhengHei" : "calibri"
+              currentLanguage === "eng" ? "Titillium Web Regular" : "calibri"
             }`,
           }}
         >

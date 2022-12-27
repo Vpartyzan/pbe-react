@@ -31,7 +31,7 @@ const SearchResult = (props) => {
           <div
             style={{
               fontFamily: `${
-                currentLanguage === "eng" ? "MyriadProRegular" : "calibri"
+                currentLanguage === "eng" ? "Titillium Web Regular" : "calibri"
               }`,
             }}
           >
@@ -54,7 +54,7 @@ const SearchResult = (props) => {
           return (
             <div
               className={styles.result}
-              style={{ fontFamily: `MyriadProRegular` }}
+              style={{ fontFamily: `Titillium Web Regular` }}
             >
               <h1>Sorry, your search returned no results</h1>
             </div>
@@ -82,7 +82,7 @@ const SearchResult = (props) => {
     switch (currentLanguage) {
       case "eng":
         return (
-          <h1 style={{ fontFamily: `MyriadProRegular` }}>
+          <h1 style={{ fontFamily: `Titillium Web Regular` }}>
             {props.searchString} - search on site
           </h1>
         );

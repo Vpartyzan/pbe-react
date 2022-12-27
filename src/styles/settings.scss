@@ -1,41 +1,6 @@
 $base-size: 12px;
 
 @font-face {
-  font-family: "Microsoft JhengHei";
-  src: url("./fonts/msjh.ttc") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MyriadProRegular";
-  src: url("./fonts/MyriadProRegular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Microsoft JhengHei light";
-  src: url("./fonts/msjhl.ttc") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Microsoft JhengHei Bold";
-  src: url("./fonts/msjhbd.ttc") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "NewsGoth BT Italic";
-  src: url("./fonts/tt0048m_.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Titillium Web Italic";
   src: url("./fonts/TitilliumWeb-Italic.ttf") format("truetype");
   font-weight: normal;
@@ -57,6 +22,13 @@ $base-size: 12px;
 }
 
 @font-face {
+  font-family: "Titillium Web light";
+  src: url("./fonts/TitilliumWeb-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "calibri";
   src: url("./fonts/calibri.ttf") format("truetype");
   font-weight: normal;
@@ -73,20 +45,6 @@ $base-size: 12px;
 @font-face {
   font-family: "calibrib";
   src: url("./fonts/calibrib.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BenguiatGothicCTT";
-  src: url("./fonts/BenguiatGothicCTT.TTF") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FreeSet";
-  src: url("./fonts/FreeSet.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

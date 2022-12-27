@@ -8,6 +8,7 @@ export const getTextContent = ({ textContent }, currentLanguage) =>
 
 const mapStateToProps = (state) => ({
   content: getTextContent(state.content, state.state.currentLanguage),
+  currentLanguage: state.state.currentLanguage,
 });
 
 const mapDispatchToProps = (dispatch) => ({
