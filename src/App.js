@@ -7,6 +7,7 @@ import About from "./components/views/About/AboutContainer";
 import Contact from "./components/views/Contact/ContactContainer";
 import Exhibitions from "./components/views/Exhibitions/ExhibitionsContainer";
 import SearchResult from "./components/views/SearchResult/SearchResultContainer";
+import Empty from "./components/views/Empty/EmptyContainer";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             path={process.env.PUBLIC_URL + "/search"}
             element={<SearchResult />}
           />
+          <Route path={process.env.PUBLIC_URL + "/empty"} element={<Empty />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>
