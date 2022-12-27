@@ -18,7 +18,7 @@ const About = (props) => {
           <h1
             style={{
               fontFamily: `${
-                language === "eng" ? "Titillium Web light" : "FreeSet"
+                language === "eng" ? "Titillium Web Bold" : "calibrib"
               }`,
             }}
           >
