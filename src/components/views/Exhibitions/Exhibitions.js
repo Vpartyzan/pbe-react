@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import PropTypes from "prop-types";
 
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
@@ -164,9 +165,9 @@ const Exhibitions = (props) => {
           {activeExhTextCont.paragraph}
         </p>
         <div className={styles.btn_container}>
-          <NavLink to="/map" className={styles.btn}>
+          <HashLink to="/about#map" className={styles.btn}>
             Full Gallery →
-          </NavLink>
+          </HashLink>
         </div>
       </div>
     </div>
