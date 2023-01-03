@@ -1,5 +1,12 @@
 @import "../../../styles/settings.scss";
 
+.container {
+  width: 1140px;
+  // padding: 0 20px;
+  margin: auto;
+  text-align: end;
+}
+
 .searcher {
   input {
     border-top: none;
@@ -26,9 +33,13 @@
   }
 }
 
-.navLinks {
-  a {
-    color: #161515;
+.navLinksContainer {
+  width: 348px;
+
+  .navLinks {
+    a {
+      color: #161515;
+    }
   }
 }
 
@@ -40,13 +51,6 @@
   a {
     margin-right: 10px;
   }
-}
-
-.container {
-  width: 1140px;
-  // padding: 0 20px;
-  margin: auto;
-  text-align: end;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -93,6 +97,10 @@
     width: 100%;
     margin: auto;
     padding-left: 0px;
+  }
+
+  .navLinksContainer {
+    width: auto;
   }
 
   .navWrapper {

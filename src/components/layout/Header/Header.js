@@ -44,7 +44,7 @@ const Header = (props) => {
             </ul>
           </li>
 
-          <li>
+          <li className={styles.navLinksContainer}>
             <ul className={styles.navLinks}>
               <li
                 style={{
